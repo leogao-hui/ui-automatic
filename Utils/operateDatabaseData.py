@@ -5,6 +5,7 @@
 import pymysql
 import os
 import configparser
+import allure
 
 first = os.path.dirname(os.path.dirname((os.path.abspath(__file__))))
 case_path = os.path.join(first, "config.ini")
@@ -19,6 +20,7 @@ pass_wd = config.get("mysql", "passwd")
 db_name = config.get("mysql", "database")
 
 
+@allure.step('清空数据库')
 def delete_database_data_test_ci():
 
     db = pymysql.connect(
@@ -51,6 +53,7 @@ def delete_database_data_test_ci():
     db.close()
 
 
+@allure.step('新增基础数据')
 def add_database_data_test_ci():
 
     db = pymysql.connect(
@@ -71,6 +74,7 @@ def add_database_data_test_ci():
     db.close()
 
 
+@allure.step('数据库查询数据')
 def get_data_from_database(sql_sentence):
 
     db = pymysql.connect(
@@ -86,5 +90,3 @@ def get_data_from_database(sql_sentence):
     cur.close()
     db.close()
     return result
-
-add_database_data_test_ci()

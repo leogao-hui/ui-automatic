@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Cases.Login.testLogin",
+    "children" : [ {
+      "name" : "test_normal_login",
+      "uid" : "12444e58d75154e8",
+      "parentUid" : "454bec369fe6b09485adfcfd10e9d3fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577080377051,
+        "stop" : 1577080382809,
+        "duration" : 5758
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "Cases.Login.testLogin"
+  } ]
+}

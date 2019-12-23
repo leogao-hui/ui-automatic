@@ -13,8 +13,9 @@ class Base:
 
     '''基于原生的selenium做二次封装'''
 
-    def __init__(self, driver):
+    def __init__(self, driver, url):
         self.driver = driver
+        self.url = url
         self.timeout = 10
         self.t = 0.5
 
@@ -45,6 +46,10 @@ class Base:
     def click(self, locator):
         ele = self.find_element(locator)
         ele.click()
+
+    # 到达网页
+    def get_url(self):
+        return self.driver.get(self.url)
 
     def clear(self, locator):
         ele = self.find_element(locator)
