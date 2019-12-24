@@ -18,4 +18,7 @@ class LoginElement:
     # 登录按钮
     login_confirm_input_box = (By.CLASS_NAME, 'login-confirm')
 
+    # 验证登录成功
+    assert_login_success = (By.XPATH, '//*[@class="top-nav-title"]/')
+
 

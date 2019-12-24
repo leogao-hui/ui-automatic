@@ -3,7 +3,6 @@
 
 import pytest
 from Utils.operateDatabaseData import delete_database_data_test_ci, add_database_data_test_ci
-from conftest import state_driver
 from OperationalLayer.Login.login import LoginOperate
 from Url.Login import login
 
@@ -14,7 +13,7 @@ def database_base_configuration():
     add_database_data_test_ci()
 
 
-@pytest.fixture(scope='class', autouse=True)
-def state_login_class():
+@pytest.fixture()
+def state_login_class(state_driver):
     login_operate = LoginOperate(state_driver, login.login_url)
     return login_operate

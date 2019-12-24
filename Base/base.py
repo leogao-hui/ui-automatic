@@ -19,6 +19,7 @@ class Base:
         self.timeout = 10
         self.t = 0.5
 
+    # 定位元素
     def find_element(self, locator):
         '''定位到元素，返回元素对象，没定位到，Timeout异常'''
         if not isinstance(locator, tuple):
@@ -39,21 +40,32 @@ class Base:
             except:
                 return []
 
+    # 输入内容
     def send_keys(self, locator, text=''):
         ele = self.find_element(locator)
         ele.send_keys(text)
 
+    # 点击
     def click(self, locator):
         ele = self.find_element(locator)
         ele.click()
+
+    # 获取当前网页url
+    def receive_current_url(self):
+        return self.driver.current_url
 
     # 到达网页
     def get_url(self):
         return self.driver.get(self.url)
 
+    # 清空数据
     def clear(self, locator):
         ele = self.find_element(locator)
         ele.clear()
+
+    # 关闭页面
+    def close(self):
+        self.driver.close()
 
     def is_selected(self, locator):
         '''判断元素是否被选中，返回bool值'''

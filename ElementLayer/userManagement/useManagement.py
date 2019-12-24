@@ -33,3 +33,5 @@ class UserManagementElement:
     # 导入按钮
     import_button = (By.XPATH, '//*[@class="usermanage-button"]/div/div/button[0]')
 
+    # 搜索姓名输入框
+    search_name_input = (By.XPATH, '//*[@class=""]')

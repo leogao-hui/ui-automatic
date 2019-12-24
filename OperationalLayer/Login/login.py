@@ -29,6 +29,16 @@ class LoginOperate(Base):
     def confirm_login_button(self):
         self.click(LoginElement.login_confirm_input_box)
 
+    @allure.step('步骤4：验证跳转页面')
+    def validate_jump_page(self):
+        return self.receive_current_url()
 
+    @allure.step('步骤4：获取账号不存在报错信息')
+    def validate_account_not_exist(self):
+        pass
+
+    @allure.step('步骤5：关闭页面')
+    def close_web(self):
+        self.close()
 
 
