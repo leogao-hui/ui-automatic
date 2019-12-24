@@ -1,5 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Dec 23 13:52:57 CST 2019","Mon Dec 23 13:53:02 CST 2019","5758","Cases.Login","testLogin","TestSearchPage","","","test_normal_login","
-        用例描述：输入管理员账号，密码，验证码（随便），正常登录
-        :return:
-        "

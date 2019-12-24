@@ -35,7 +35,7 @@ class LoginOperate(Base):
 
     @allure.step('步骤4：获取账号不存在报错信息')
     def validate_account_not_exist(self):
-        pass
+        return self.get_txt_in_tag(LoginElement.assert_account_wrong)
 
     @allure.step('步骤5：关闭页面')
     def close_web(self):

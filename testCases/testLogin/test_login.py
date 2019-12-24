@@ -37,5 +37,6 @@ class TestSearchPage:
         state_login_class.input_account(abnormal_login_data.account, abnormal_login_data.password,
                                         abnormal_login_data.verification_code)
         state_login_class.confirm_login_button()
-
+        time.sleep(1)
+        assert '登录信息有误，请确认后重新登录' in state_login_class.validate_account_not_exist()
         state_login_class.close_web()

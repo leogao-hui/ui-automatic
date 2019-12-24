@@ -1,35 +1,17 @@
 #_author:leo gao
 #encoding:utf-8
 
-import pytest
-# test_fixture1.py
+from selenium import webdriver
+import time
+
+driver = webdriver.Chrome()
+driver.get('http://10.66.8.200:8088/')
+driver.find_element_by_class_name('username').send_keys('admin12')
+driver.find_element_by_class_name('password').send_keys('admin123')
+driver.find_element_by_xpath('//*[@class="idcode"]/input').send_keys('1111')
+driver.find_element_by_class_name('login-confirm').click()
+time.sleep(1)
+aa = driver.find_element_by_class_name('modalText').get_attribute("innerHTML")
 
 
-@pytest.fixture()
-def test1():
-    a = 'leo'
-    print('\n传出a')
-    return a
-
-
-@pytest.fixture(scope='function')
-def test2():
-    b = '男'
-    print('\n传出b')
-    return b
-
-
-def test3(test1):
-    name = 'leo'
-    print('找到name')
-    assert test1 == name
-
-
-def test4(test2):
-    sex = '男'
-    print('找到sex')
-    assert test2 == sex
-
-
-if __name__ == '__main__':
-    pytest.main(['-s', 'test.py'])
+print(aa)

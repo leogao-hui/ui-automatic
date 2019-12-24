@@ -1,0 +1,5 @@
+正在定位元素信息：定位方式->class name, value值->username
+正在定位元素信息：定位方式->class name, value值->password
+正在定位元素信息：定位方式->xpath, value值->//*[@class="idcode"]/input
+正在定位元素信息：定位方式->class name, value值->login-confirm
+<bound method LoginOperate.validate_account_not_exist of <OperationalLayer.Login.login.LoginOperate object at 0x1065045c0>>
