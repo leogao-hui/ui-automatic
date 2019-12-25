@@ -34,4 +34,10 @@ class UserManagementElement:
     import_button = (By.XPATH, '//*[@class="usermanage-button"]/div/div/button[0]')
 
     # 搜索姓名输入框
-    search_name_input = (By.XPATH, '//*[@class=""]')
+    search_name_input = (By.XPATH, '//*[@class="searchul"]/li/input')
+
+    # 搜索账户名输入框
+    search_account_input = (By.XPATH, '//*[@class="searchul"]/li[1]/input')
+
+    # 搜索组织机构输入框
+    search_organization_input = (By.XPATH, '//*[@]')
