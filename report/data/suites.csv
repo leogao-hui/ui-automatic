@@ -1,0 +1,27 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Dec 25 16:36:04 CST 2019","Wed Dec 25 16:36:09 CST 2019","5482","test_cases.test_user_management","test_add_user","TestAddUser","","","test_normal_add_user","
+        用例描述：输入编号，姓名，账号名，选择所属结构，正常新增用户
+        :return:
+        "
+"passed","Tue Dec 24 16:38:44 CST 2019","Tue Dec 24 16:38:47 CST 2019","2796","testCases.testLogin","test_login","TestSearchPage","","","test_account_wrong_login","
+        用例描述：输入错误管理员账号，正确密码，验证码（随便），登录报错
+        :return:
+        "
+"broken","Wed Dec 25 15:59:10 CST 2019","Wed Dec 25 15:59:10 CST 2019","0","test_cases.test_user_management","test_add_user","TestAddUser","","","test_modify_",""
+"passed","Wed Dec 25 15:11:08 CST 2019","Wed Dec 25 15:11:10 CST 2019","1646","test_cases.test_user_management","test_add_user","TestAddUser","","","test_login",""
+"passed","Tue Dec 24 16:38:39 CST 2019","Tue Dec 24 16:38:41 CST 2019","2781","testCases.testLogin","test_login","TestSearchPage","","","test_normal_login","
+        用例描述：输入正确管理员账号，正确密码，验证码（随便）正常登录
+        :return:
+        "
+"passed","Wed Dec 25 16:35:48 CST 2019","Wed Dec 25 16:35:52 CST 2019","3504","test_cases.test_login","test_login","TestLogin","","","test_normal_login","
+        用例描述：输入正确管理员账号，正确密码，验证码（随便）正常登录
+        :return:
+        "
+"passed","Wed Dec 25 15:31:47 CST 2019","Wed Dec 25 15:31:50 CST 2019","3091","test_cases.test_user_management","test_add_user","TestAddUser","","","test_normal_login","
+        用例描述：输入编号，姓名，账号名，选择所属结构，正常新增用户
+        :return:
+        "
+"failed","Wed Dec 25 16:35:54 CST 2019","Wed Dec 25 16:35:57 CST 2019","3128","test_cases.test_login","test_login","TestLogin","","","test_account_wrong_login","
+        用例描述：输入错误管理员账号，正确密码，验证码（随便），登录报错
+        :return:
+        "

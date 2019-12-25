@@ -16,8 +16,8 @@ class Base:
     def __init__(self, driver, url):
         self.driver = driver
         self.url = url
-        self.timeout = 10
-        self.t = 0.5
+        self.timeout = 20
+        self.t = 1
 
     # 定位元素
     def find_element(self, locator):

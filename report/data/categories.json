@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "_pytest.fixtures.FixtureLookupError: ('state_user_management_class', <FixtureRequest for <Function test_modify_>>)",
+      "children" : [ {
+        "name" : "test_modify_",
+        "uid" : "4dd6aff9ca0d4b12",
+        "parentUid" : "db2a694a4810c23be127c6e9053412f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1577260750009,
+          "stop" : 1577260750009,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "db2a694a4810c23be127c6e9053412f5"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '登录信息有误，请确认后重新登录111' in '\\n\\t\\t\\t\\t\\t\\t登录信息有误，请确认后重新登录\\n\\t\\t\\t\\t\\t'\n +  where '\\n\\t\\t\\t\\t\\t\\t登录信息有误，请确认后重新登录\\n\\t\\t\\t\\t\\t' = <bound method LoginOperate.validate_account_not_exist of <OperationalLayer.Login.login.LoginOperate object at 0x10fe414a8>>()\n +    where <bound method LoginOperate.validate_account_not_exist of <OperationalLayer.Login.login.LoginOperate object at 0x10fe414a8>> = <OperationalLayer.Login.login.LoginOperate object at 0x10fe414a8>.validate_account_not_exist",
+      "children" : [ {
+        "name" : "test_account_wrong_login",
+        "uid" : "5000b9e47c318eff",
+        "parentUid" : "ab3798569fdb6137062b4d9e779a9c9b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1577262954757,
+          "stop" : 1577262957885,
+          "duration" : 3128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ab3798569fdb6137062b4d9e779a9c9b"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

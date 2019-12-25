@@ -1,0 +1,156 @@
+{
+  "7006e2f7968905b204fcb6e8d24a2441" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fa2d0948c205824b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577259107245,
+        "stop" : 1577259110336,
+        "duration" : 3091
+      }
+    } ]
+  },
+  "fd7bdb65f4df5754da250d662b7e39f5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "12359363f422253e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577176724554,
+        "stop" : 1577176727350,
+        "duration" : 2796
+      }
+    } ]
+  },
+  "b308178dd37a299f6d4684f5efc4274c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5000b9e47c318eff",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '登录信息有误，请确认后重新登录111' in '\\n\\t\\t\\t\\t\\t\\t登录信息有误，请确认后重新登录\\n\\t\\t\\t\\t\\t'\n +  where '\\n\\t\\t\\t\\t\\t\\t登录信息有误，请确认后重新登录\\n\\t\\t\\t\\t\\t' = <bound method LoginOperate.validate_account_not_exist of <OperationalLayer.Login.login.LoginOperate object at 0x10fe414a8>>()\n +    where <bound method LoginOperate.validate_account_not_exist of <OperationalLayer.Login.login.LoginOperate object at 0x10fe414a8>> = <OperationalLayer.Login.login.LoginOperate object at 0x10fe414a8>.validate_account_not_exist",
+      "time" : {
+        "start" : 1577262954757,
+        "stop" : 1577262957885,
+        "duration" : 3128
+      }
+    } ]
+  },
+  "bfd959f4d12cecd1abc4289b4293fc46" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f8f04ff6b1cc70a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577176719048,
+        "stop" : 1577176721829,
+        "duration" : 2781
+      }
+    } ]
+  },
+  "57043862478cc7a6df9d708bda1389f6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "455083405c1e27ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577262964306,
+        "stop" : 1577262969788,
+        "duration" : 5482
+      }
+    } ]
+  },
+  "3b2bdad4425fd60e194e0bfda7cb5a17" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ac8e5b787505396",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577262948562,
+        "stop" : 1577262952066,
+        "duration" : 3504
+      }
+    } ]
+  },
+  "f4678da65860b593ad2313fbb7d3426a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4dd6aff9ca0d4b12",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('state_user_management_class', <FixtureRequest for <Function test_modify_>>)",
+      "time" : {
+        "start" : 1577260750009,
+        "stop" : 1577260750009,
+        "duration" : 0
+      }
+    } ]
+  },
+  "378630ab16abe98ff211011da8acb173" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "580dace73da22f38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577257868862,
+        "stop" : 1577257870508,
+        "duration" : 1646
+      }
+    } ]
+  }
+}

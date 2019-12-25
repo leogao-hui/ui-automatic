@@ -1,0 +1,7 @@
+正在定位元素信息：定位方式->class name, value值->username
+正在定位元素信息：定位方式->class name, value值->password
+正在定位元素信息：定位方式->xpath, value值->//*[@class="idcode"]/input
+正在定位元素信息：定位方式->class name, value值->login-confirm
+正在定位元素信息：定位方式->xpath, value值->//*[text()="用户管理"]
+正在定位元素信息：定位方式->xpath, value值->//*[text()="添加"]
+正在定位元素信息：定位方式->xpath, value值->//*[@class="adduser-content-main"]/ul/li[0]/input

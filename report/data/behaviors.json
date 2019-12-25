@@ -1,0 +1,137 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登录",
+    "children" : [ {
+      "name" : "这是一个测试正常登录的case",
+      "children" : [ {
+        "name" : "test_normal_login",
+        "uid" : "f8f04ff6b1cc70a4",
+        "parentUid" : "55a952fef26139a0b61d658b2abd3c1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577176719048,
+          "stop" : 1577176721829,
+          "duration" : 2781
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_normal_login",
+        "uid" : "6ac8e5b787505396",
+        "parentUid" : "55a952fef26139a0b61d658b2abd3c1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577262948562,
+          "stop" : 1577262952066,
+          "duration" : 3504
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "55a952fef26139a0b61d658b2abd3c1f"
+    }, {
+      "name" : "这是一个测试账号错误登录的case",
+      "children" : [ {
+        "name" : "test_account_wrong_login",
+        "uid" : "12359363f422253e",
+        "parentUid" : "0ab93c72ed351bd942333163410337ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577176724554,
+          "stop" : 1577176727350,
+          "duration" : 2796
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_account_wrong_login",
+        "uid" : "5000b9e47c318eff",
+        "parentUid" : "0ab93c72ed351bd942333163410337ac",
+        "status" : "failed",
+        "time" : {
+          "start" : 1577262954757,
+          "stop" : 1577262957885,
+          "duration" : 3128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0ab93c72ed351bd942333163410337ac"
+    } ],
+    "uid" : "6e12e06fb17fec92464fd1fd24bca881"
+  }, {
+    "name" : "成员管理",
+    "children" : [ {
+      "name" : "hhhh",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "580dace73da22f38",
+        "parentUid" : "e008346bd9766866f74a53e60904bbbe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577257868862,
+          "stop" : 1577257870508,
+          "duration" : 1646
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e008346bd9766866f74a53e60904bbbe"
+    }, {
+      "name" : "这是一个测试正常新增的case",
+      "children" : [ {
+        "name" : "test_normal_login",
+        "uid" : "fa2d0948c205824b",
+        "parentUid" : "3a938088910a682e605a78051601125f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577259107245,
+          "stop" : 1577259110336,
+          "duration" : 3091
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_normal_add_user",
+        "uid" : "455083405c1e27ea",
+        "parentUid" : "3a938088910a682e605a78051601125f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577262964306,
+          "stop" : 1577262969788,
+          "duration" : 5482
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3a938088910a682e605a78051601125f"
+    }, {
+      "name" : "这是一个测试修改用户名字账号的case",
+      "children" : [ {
+        "name" : "test_modify_",
+        "uid" : "4dd6aff9ca0d4b12",
+        "parentUid" : "3623bcd2e1ceefef14d3ae1bec812bbe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1577260750009,
+          "stop" : 1577260750009,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3623bcd2e1ceefef14d3ae1bec812bbe"
+    } ],
+    "uid" : "f7a655af40ad79b56b018580d56baa3a"
+  } ]
+}
