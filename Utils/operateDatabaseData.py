@@ -90,3 +90,5 @@ def get_data_from_database(sql_sentence):
     cur.close()
     db.close()
     return result
+
+add_database_data_test_ci

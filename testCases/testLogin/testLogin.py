@@ -10,7 +10,7 @@ from Data.Login import noraml_login_data, abnormal_login_data
 
 @allure.feature('登录')
 @pytest.mark.usefixtures('state_login_class')
-class TestSearchPage:
+class TestLogin:
 
     @allure.story('这是一个测试正常登录的case')
     def test_normal_login(self, state_login_class):

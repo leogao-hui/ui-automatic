@@ -12,6 +12,27 @@ class UserManagementElement:
     # 添加用户按钮
     add_user_button = (By.XPATH, '//*[@class="usermanage-button"]/button[0]')
 
+    # 添加用户编号输入框
+    add_user_serial_number_input = (By.XPATH, '//*[@class="adduser-content-main"]/ul/li[0]/input')
+
+    # 添加用户姓名输入框
+    add_user_name_input = (By.XPATH, '//*[@class="adduser-content-main"]/ul/li[1]/input')
+
+    # 添加用户账号名输入框
+    add_user_account_input = (By.XPATH, '//*[@class="adduser-content-main"]/ul/li[2]/input')
+
+    # 所属组织结构选择框
+    belong_to_organization_select_box = (By.XPATH, '//*[@class="adduser-content-main"]/ul/li[4]/input')
+
+    # 总军区
+    total_military_area_command = (By.XPATH, '//*[@class="orgstructure-scroll-treebox"]/div/li/div/span/span/span')
+
+    # 添加人员确定按钮
+    add_user_confirm_button = (By.XPATH, '//*[@class="adduser"]/div/div[2]/button[0]')
+
+    # 添加人员取消按钮
+    add_user_cancel_button = (By.XPATH, '//*[@class="adduser"]/div/div[2]/button[1]')
+
     # 修改用户按钮
     modify_user_button = (By.XPATH, '//*[@class="usermanage-button"]/button[1]')
 
@@ -40,4 +61,49 @@ class UserManagementElement:
     search_account_input = (By.XPATH, '//*[@class="searchul"]/li[1]/input')
 
     # 搜索组织机构输入框
-    search_organization_input = (By.XPATH, '//*[@]')
+    search_organization_input = (By.XPATH, '//*[@class="selli"]/input')
+
+    # 搜索按钮
+    search_button = (By.XPATH, '//*[@class="searchbtnBox"]/button[0]')
+
+    # 重置按钮
+    reset_button = (By.XPATH, '//*[@class="searchbtnBox"]/button[1]')
+
+    # 第一排空格
+    first_blank_space = (By.XPATH, '//*[@class="listData"]/li/span/label/span')
+
+    # 第一排序号
+    first_row_serial_number = (By.XPATH, '//*[@class="listData"]/li/span[1]')
+
+    # 第一排姓名
+    first_row_name = (By.XPATH, '//*[@class="listData"]/li/span[2]')
+
+    # 第一排账号名
+    first_row_account = (By.XPATH, '//*[@class="listData"]/li/span[3]')
+
+    # 第一排组织机构
+    first_row_organization = (By.XPATH, '//*[@class="listData"]/li/span[4]')
+
+    # 第一排角色
+    first_row_role = (By.XPATH, '//*[@class="listData"]/li/span[5]')
+
+    # 第一排绑定设备
+    first_bind_device = (By.XPATH, '//*[@class="listData"]/li/span[6]')
+
+    # 第一排账号状态
+    first_account_status = (By.XPATH, '//*[@class="listData"]/li/span[7]')
+
+    # 修改用户时的姓名
+    modify_user_name = (By.XPATH, '//*[@class="adduser-content-main"]/ul/li/input')
+
+    # 修改用户时的账号
+    modify_user_account = (By.XPATH, '//*[@class="adduser-content-main"]/ul/li[1]/input')
+
+    # 修改用户时的所属组织机构
+    modify_user_belong_to_organization = (By.XPATH, '//*[@class="adduser-content-main"]/ul/li[2]/input')
+
+    # 修改用户时的确定按钮
+    modify_user_confirm_button = (By.XPATH, '//*[@class="adduser"]/div/div[2]/button[0]')
+
+    # 修改用户时的取消按钮
+    modify_user_cancel_button = (By.XPATH, '//*[@class="adduser"]/div/div[2]/button[1]')

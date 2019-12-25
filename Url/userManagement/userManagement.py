@@ -3,5 +3,4 @@
 
 from Utils.common import ci_url
 
-login_url = ci_url
-
+user_manager_url = '%s/#/manage' % ci_url
