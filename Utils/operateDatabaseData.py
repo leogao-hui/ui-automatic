@@ -42,7 +42,7 @@ def delete_database_data_test_ci():
 
     tables = cur.fetchall()
 
-    name = ['spzh_outserver']
+    name = []
 
     for table in tables:
         if str(table[0]) not in name:
@@ -67,9 +67,11 @@ def add_database_data_test_ci():
 
     query_one = 'insert into spzh_organization(id, name, parentid, num, usestatus, realid) values (1, "总军区", "", 02, 0, 1)'
     query_two = 'insert into spzh_user(id, realname, username, deviceid, password, organizationnum, userrole, num, usestatus, morendevice, lastlogintime, status, lastloginerrortime, loginerrorcount, loginstatus, createtime, translaterealname, ip) values (1, "管理员", "admin", NULL, "0192023a7bbd73250516f069df18b500", 1, "管理员", 0, 0, NULL, NULL, 1, NULL, 0, 0, NULL, NULL, "")'
+    query_three = 'insert into spzh_outserver(id, name, ip, port, username, password, type) values (1, "统一设备服务器", "10.66.9.1", "8180", "admin", "admin", 2)'
 
     cur.execute(query_one)
     cur.execute(query_two)
+    cur.execute(query_three)
     db.commit()
     db.close()
 

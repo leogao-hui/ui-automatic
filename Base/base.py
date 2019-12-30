@@ -16,8 +16,8 @@ class Base:
     def __init__(self, driver, url):
         self.driver = driver
         self.url = url
-        self.timeout = 20
-        self.t = 1
+        self.timeout = 5
+        self.t = 0.5
 
     # 定位元素
     def find_element(self, locator):
@@ -67,9 +67,18 @@ class Base:
     def close(self):
         self.driver.close()
 
+    # action
+    def continuous_operate(self, locator_one, locator_two):
+        ActionChains(self.driver).click(locator_one).click(locator_two).perform()
+
     # 获取标签内容
     def get_txt_in_tag(self, locator):
         return self.find_element(locator).get_attribute("textContent")
+
+    # 使用js点击
+    def use_js_click(self, locator):
+        target = self.find_element(locator)
+        self.driver.execute_script("(arguments[0]).click()", target)
 
     def is_selected(self, locator):
         '''判断元素是否被选中，返回bool值'''
@@ -91,3 +100,5 @@ class Base:
             return result
         except:
             return False
+
+

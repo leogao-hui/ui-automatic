@@ -24,7 +24,7 @@ class TestLogin:
                                         noraml_login_data.verification_code)
         state_login_class.confirm_login_button()
         time.sleep(1)
-        assert state_login_class.validate_jump_page() == 'http://10.66.8.200:8088/#/manage'
+        assert 'http://10.66.8.200:8088/#/manage' == state_login_class.validate_jump_page()
         state_login_class.close_web()
 
     @allure.story('这是一个测试账号错误登录的case')
@@ -38,5 +38,5 @@ class TestLogin:
                                         abnormal_login_data.verification_code)
         state_login_class.confirm_login_button()
         time.sleep(1)
-        assert '登录信息有误，请确认后重新登录111' in state_login_class.validate_account_not_exist()
+        assert '登录信息有误，请确认后重新登录' in state_login_class.validate_account_not_exist()
         state_login_class.close_web()

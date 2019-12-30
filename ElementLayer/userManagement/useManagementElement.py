@@ -88,16 +88,16 @@ class UserManagementElement:
     first_row_role = (By.XPATH, '//*[@class="listData"]/li/span[6]')
 
     # 第一排绑定设备
-    first_bind_device = (By.XPATH, '//*[@class="listData"]/li/span[7]')
+    first_row_bind_device = (By.XPATH, '//*[@class="listData"]/li/span[7]')
 
     # 第一排账号状态
-    first_account_status = (By.XPATH, '//*[@class="listData"]/li/span[8]')
+    first_row_account_status = (By.XPATH, '//*[@class="listData"]/li/span[8]')
 
     # 修改用户时的姓名
-    modify_user_name = (By.XPATH, '//*[@class="adduser-content-main"]/ul/li/input')
+    modify_user_name = (By.XPATH, '//*[@id="app"]/div[3]/div[2]/div[2]/div/div/div/div[2]/ul/li/input')
 
     # 修改用户时的账号
-    modify_user_account = (By.XPATH, '//*[@class="adduser-content-main"]/ul/li[2]/input')
+    modify_user_account = (By.XPATH, '//*[@id="app"]/div[3]/div[2]/div[2]/div/div/div/div[2]/ul/li[2]/input')
 
     # 修改用户时的所属组织机构
     modify_user_belong_to_organization = (By.XPATH, '//*[@class="adduser-content-main"]/ul/li[3]/input')

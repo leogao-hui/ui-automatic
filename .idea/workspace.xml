@@ -2,26 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3809248-d390-4a34-99a9-b73d488db7a7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Data/userManagement/normal_add_user_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_cases/test_login/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_cases/test_user_management/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/SystemManagement/systemManagementData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/deviceManagement/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/deviceManagement/add_device/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/deviceManagement/add_device/normal_add_device_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/deviceManagement/modify_device/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/deviceManagement/modify_device/normal_modify_device_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/userManagement/add_user/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/userManagement/modify_user/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ElementLayer/deviceManagement/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ElementLayer/deviceManagement/deviceManagementElement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ElementLayer/systemManagement/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ElementLayer/systemManagement/systemManagementElement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OperationalLayer/deviceManagement/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OperationalLayer/deviceManagement/deviceManagementAddOperate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OperationalLayer/deviceManagement/deviceManagementModifyOperate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OperationalLayer/systemManagement/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OperationalLayer/systemManagement/systemManagementAddOperate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OperationalLayer/userManagement/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Url/deviceManagement/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Url/deviceManagement/deviceManagement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Url/systemManagement/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Url/systemManagement/systemManagement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test_device_management/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test_device_management/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test_device_management/test_add_device.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test_device_management/test_modify_device.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test_user_management/test_modify_user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Base/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/userManagement/normal_add_user.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElementLayer/Login/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/ElementLayer/Login/loginElement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElementLayer/userManagement/useManagement.py" beforeDir="false" afterPath="$PROJECT_DIR$/ElementLayer/userManagement/useManagementElement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OperationalLayer/Login/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/OperationalLayer/Login/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OperationalLayer/UserManagement/userManagementOperate.py" beforeDir="false" afterPath="$PROJECT_DIR$/OperationalLayer/UserManagement/userManagementAddOperate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/userManagement/modify_user_name_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/userManagement/modify_user/modify_user_name_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/userManagement/normal_add_user_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/userManagement/add_user/normal_add_user_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ElementLayer/userManagement/useManagementElement.py" beforeDir="false" afterPath="$PROJECT_DIR$/ElementLayer/userManagement/useManagementElement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OperationalLayer/UserManagement/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/SystemManagement/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OperationalLayer/UserManagement/userManagementAddOperate.py" beforeDir="false" afterPath="$PROJECT_DIR$/OperationalLayer/userManagement/userManagementAddOperate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OperationalLayer/UserManagement/userManagementModifyOperate.py" beforeDir="false" afterPath="$PROJECT_DIR$/OperationalLayer/userManagement/userManagementModifyOperate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utils/operateDatabaseData.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/operateDatabaseData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCases/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/userManagement/modify_user_name_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCases/testLogin/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/OperationalLayer/UserManagement/userManagementModifyOperate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCases/testLogin/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_login/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCases/testLogin/testLogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_login/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCases/testUserManagement/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCases/testUserManagement/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_user_management/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCases/testUserManagement/testAddUser.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_user_management/test_add_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/test_login/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_login/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/test_user_management/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_user_management/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/test_user_management/test_add_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_user_management/test_add_user.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,22 +52,41 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ui_automatic$run_cases_html.coverage" NAME="run_cases_html Coverage Results" MODIFIED="1576747494382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ui_automatic$operateDatabaseData.coverage" NAME="operateDatabaseData Coverage Results" MODIFIED="1577256493934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utils" />
-    <SUITE FILE_PATH="coverage/ui_automatic$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1577256771327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ui_automatic$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1577690005142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ui_automatic$operateDatabaseData.coverage" NAME="operateDatabaseData Coverage Results" MODIFIED="1577699204847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utils" />
     <SUITE FILE_PATH="coverage/ui_automatic$login.coverage" NAME="login Coverage Results" MODIFIED="1576745250145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Url/Login" />
     <SUITE FILE_PATH="coverage/ui_automatic$Unittests_for_testLogin_TestSearchPage.coverage" NAME="Unittests for testLogin.TestSearchPage Coverage Results" MODIFIED="1576745413586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case/Login" />
     <SUITE FILE_PATH="coverage/ui_automatic$common.coverage" NAME="common Coverage Results" MODIFIED="1577252930789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utils" />
     <SUITE FILE_PATH="coverage/ui_automatic$Unittests_for_testLogin_TestSearchPage_test_normal_login.coverage" NAME="Unittests for testLogin.TestSearchPage.test_normal_login Coverage Results" MODIFIED="1577070413876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cases/Login" />
     <SUITE FILE_PATH="coverage/ui_automatic$test_login.coverage" NAME="test_login Coverage Results" MODIFIED="1577173406360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/testLogin" />
     <SUITE FILE_PATH="coverage/ui_automatic$test.coverage" NAME="test Coverage Results" MODIFIED="1576898132779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ui_automatic$test_add_device.coverage" NAME="test_add_device Coverage Results" MODIFIED="1577688432448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases/test_device_management" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="userManagementAddOperate.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OperationalLayer/UserManagement/userManagementAddOperate.py">
+      <file leaf-file-name="test_add_device.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_cases/test_device_management/test_add_device.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            <state relative-caret-position="220">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="operateDatabaseData.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Utils/operateDatabaseData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conftest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="16" />
               <folding>
                 <element signature="e#34#47#0" expanded="true" />
               </folding>
@@ -55,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userManagementModifyOperate.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OperationalLayer/UserManagement/userManagementModifyOperate.py">
+      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_cases/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="27" selection-end-column="65" />
+            <state relative-caret-position="135">
+              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
               <folding>
                 <element signature="e#34#47#0" expanded="true" />
               </folding>
@@ -67,23 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_login.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_cases/test_login/test_login.py">
+      <file leaf-file-name="systemManagementAddOperate.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OperationalLayer/systemManagement/systemManagementAddOperate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-              <folding>
-                <element signature="e#35#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_add_user.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_cases/test_user_management/test_add_user.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="75" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
+            <state relative-caret-position="300">
+              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
               <folding>
                 <element signature="e#34#47#0" expanded="true" />
               </folding>
@@ -91,29 +118,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Base/base.py">
+      <file leaf-file-name="deviceManagementModifyOperate.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OperationalLayer/deviceManagement/deviceManagementModifyOperate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+            <state relative-caret-position="499">
+              <caret line="46" column="27" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loginElement.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ElementLayer/Login/loginElement.py">
+      <file leaf-file-name="systemManagementElement.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ElementLayer/systemManagement/systemManagementElement.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="255">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_cases/test_login/conftest.py">
+      <file leaf-file-name="deviceManagementElement.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ElementLayer/deviceManagement/deviceManagementElement.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+            <state relative-caret-position="135">
+              <caret line="9" column="63" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_cases/test_device_management/conftest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="60" column="54" selection-start-line="60" selection-start-column="54" selection-end-line="60" selection-end-column="54" />
               <folding>
                 <element signature="e#34#47#0" expanded="true" />
               </folding>
@@ -121,30 +157,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OperationalLayer/Login/login.py">
+      <file leaf-file-name="deviceManagementAddOperate.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OperationalLayer/deviceManagement/deviceManagementAddOperate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+            <state relative-caret-position="376">
+              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
               <folding>
-                <element signature="e#35#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_cases/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="97" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="97" />
-              <folding>
-                <element signature="e#34#64#0" expanded="true" />
+                <element signature="e#34#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,9 +181,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>state_user_management_class</find>
+      <find>state_add_user_management_class</find>
     </findStrings>
     <replaceStrings>
       <replace>state_add_user_management_class</replace>
+      <replace>state_modify_user_management_class</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -173,11 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Data/Login/noraml_login_data.py" />
-        <option value="$PROJECT_DIR$/config.ini" />
-        <option value="$PROJECT_DIR$/Case/Login/testLogin.py" />
-        <option value="$PROJECT_DIR$/Utils/report.py" />
-        <option value="$PROJECT_DIR$/run_cases_html.py" />
         <option value="$PROJECT_DIR$/Cases/Login/testLogin.py" />
         <option value="$PROJECT_DIR$/Data/Login/abnormal_login_data.py" />
         <option value="$PROJECT_DIR$/conftest.py" />
@@ -194,19 +210,41 @@
         <option value="$PROJECT_DIR$/testCases/testUserManagement/conftest.py" />
         <option value="$PROJECT_DIR$/testCases/testUserManagement/testAddUser.py" />
         <option value="$PROJECT_DIR$/Utils/common.py" />
-        <option value="$PROJECT_DIR$/Utils/operateDatabaseData.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/ElementLayer/userManagement/useManagementElement.py" />
         <option value="$PROJECT_DIR$/OperationalLayer/UserManagement/userManagementOperate.py" />
-        <option value="$PROJECT_DIR$/OperationalLayer/UserManagement/userManagementAddOperate.py" />
         <option value="$PROJECT_DIR$/Data/userManagement/normal_add_user.py" />
-        <option value="$PROJECT_DIR$/Base/base.py" />
         <option value="$PROJECT_DIR$/Data/userManagement/normal_add_user_data.py" />
         <option value="$PROJECT_DIR$/Data/userManagement/modify_user_name_data.py" />
+        <option value="$PROJECT_DIR$/Data/Login/noraml_login_data.py" />
+        <option value="$PROJECT_DIR$/Data/userManagement/modify_user/modify_user_name_data.py" />
         <option value="$PROJECT_DIR$/test_cases/test_user_management/conftest.py" />
+        <option value="$PROJECT_DIR$/OperationalLayer/UserManagement/userManagementAddOperate.py" />
         <option value="$PROJECT_DIR$/OperationalLayer/UserManagement/userManagementModifyOperate.py" />
+        <option value="$PROJECT_DIR$/ElementLayer/deviceManagement/deviceElement.py" />
+        <option value="$PROJECT_DIR$/ElementLayer/userManagement/useManagementElement.py" />
+        <option value="$PROJECT_DIR$/Data/deviceManagement/add_device/normal_add_device.py" />
+        <option value="$PROJECT_DIR$/Data/deviceManagement/add_device/normal_add_device_data.py" />
+        <option value="$PROJECT_DIR$/Url/deviceManagement/deviceManagement.py" />
         <option value="$PROJECT_DIR$/test_cases/test_user_management/test_add_user.py" />
         <option value="$PROJECT_DIR$/test_cases/test_login/test_login.py" />
+        <option value="$PROJECT_DIR$/Data/deviceManagement/add_device/normal_modify_device_data.py" />
+        <option value="$PROJECT_DIR$/test_cases/test_user_management/test_modify_user.py" />
+        <option value="$PROJECT_DIR$/OperationalLayer/userManagement/userManagementModifyOperate.py" />
+        <option value="$PROJECT_DIR$/OperationalLayer/userManagement/userManagementAddOperate.py" />
+        <option value="$PROJECT_DIR$/OperationalLayer/deviceManagement/deviceManagementModifyOperate.py" />
+        <option value="$PROJECT_DIR$/Data/deviceManagement/modify_device/normal_modify_device_data.py" />
+        <option value="$PROJECT_DIR$/test_cases/test_device_management/test_modify_device.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/Base/base.py" />
+        <option value="$PROJECT_DIR$/ElementLayer/deviceManagement/deviceManagementElement.py" />
+        <option value="$PROJECT_DIR$/Data/SystemManagement/systemManagementData.py" />
+        <option value="$PROJECT_DIR$/OperationalLayer/syatemManagement/systemManagementAddOperate.py" />
+        <option value="$PROJECT_DIR$/Url/systemManagement/systemManagement.py" />
+        <option value="$PROJECT_DIR$/ElementLayer/systemManagement/systemManagementElement.py" />
+        <option value="$PROJECT_DIR$/OperationalLayer/systemManagement/systemManagementAddOperate.py" />
+        <option value="$PROJECT_DIR$/OperationalLayer/deviceManagement/deviceManagementAddOperate.py" />
+        <option value="$PROJECT_DIR$/test_cases/test_device_management/conftest.py" />
+        <option value="$PROJECT_DIR$/test_cases/test_device_management/test_add_device.py" />
+        <option value="$PROJECT_DIR$/Utils/operateDatabaseData.py" />
       </list>
     </option>
   </component>
@@ -219,11 +257,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="34" />
-    <option name="y" value="112" />
-    <option name="width" value="1406" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -239,6 +275,77 @@
             <path>
               <item name="ui-automatic" type="b2602c69:ProjectViewProjectNode" />
               <item name="ui-automatic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui-automatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui-automatic" type="462c0819:PsiDirectoryNode" />
+              <item name="ElementLayer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui-automatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui-automatic" type="462c0819:PsiDirectoryNode" />
+              <item name="ElementLayer" type="462c0819:PsiDirectoryNode" />
+              <item name="deviceManagement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui-automatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui-automatic" type="462c0819:PsiDirectoryNode" />
+              <item name="ElementLayer" type="462c0819:PsiDirectoryNode" />
+              <item name="systemManagement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui-automatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui-automatic" type="462c0819:PsiDirectoryNode" />
+              <item name="OperationalLayer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui-automatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui-automatic" type="462c0819:PsiDirectoryNode" />
+              <item name="OperationalLayer" type="462c0819:PsiDirectoryNode" />
+              <item name="deviceManagement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui-automatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui-automatic" type="462c0819:PsiDirectoryNode" />
+              <item name="OperationalLayer" type="462c0819:PsiDirectoryNode" />
+              <item name="systemManagement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui-automatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui-automatic" type="462c0819:PsiDirectoryNode" />
+              <item name="test_cases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui-automatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui-automatic" type="462c0819:PsiDirectoryNode" />
+              <item name="test_cases" type="462c0819:PsiDirectoryNode" />
+              <item name="test_device_management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui-automatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui-automatic" type="462c0819:PsiDirectoryNode" />
+              <item name="Url" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui-automatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui-automatic" type="462c0819:PsiDirectoryNode" />
+              <item name="Url" type="462c0819:PsiDirectoryNode" />
+              <item name="deviceManagement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui-automatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui-automatic" type="462c0819:PsiDirectoryNode" />
+              <item name="Url" type="462c0819:PsiDirectoryNode" />
+              <item name="systemManagement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui-automatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui-automatic" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui-automatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -257,9 +364,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Data/deviceManagement/modify_device" />
+      <recent name="$PROJECT_DIR$/Data/userManagement/modify_user" />
+      <recent name="$PROJECT_DIR$/Data/userManagement/add_user" />
       <recent name="$PROJECT_DIR$/testCases" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -274,7 +383,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test (1)">
+  <component name="RunManager" selected="Python.operateDatabaseData">
     <configuration name="common" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ui-automatic" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -351,6 +460,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="test_add_device" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ui-automatic" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases/test_device_management" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_cases/test_device_management/test_add_device.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="test_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ui-automatic" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -370,22 +498,8 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Unittests for test_cases.test_login.test_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="ui-automatic" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases/test_login" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_cases.test_login.test_login&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_cases.test_login.test_login" />
+      <item itemvalue="Python.run_cases_html" />
       <item itemvalue="Python.test_login" />
       <item itemvalue="Python.test (1)" />
       <item itemvalue="Python.operateDatabaseData" />
@@ -393,8 +507,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.operateDatabaseData" />
+        <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.common" />
         <item itemvalue="Python.test_login" />
       </list>
@@ -443,22 +557,22 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37818182" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.020606061" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32848486" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26060605" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3090909" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -467,6 +581,29 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37818182" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26060605" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3018182" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32969698" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -476,95 +613,17 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/OperationalLayer/Login/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding>
-            <element signature="e#35#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_cases/test_login/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-          <folding>
-            <element signature="e#35#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Login/noraml_login_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Login/abnormal_login_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#34#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_cases/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#34#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Base/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ElementLayer/userManagement/useManagementElement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ElementLayer/Login/loginElement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Url/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utils/report.py" />
-    <entry file="file://$PROJECT_DIR$/Report/result/09b68c99-1e7c-47da-ba00-63103c8600dd-result.json" />
-    <entry file="file://$PROJECT_DIR$/Report/result/a033bc25-d63a-4db1-9ae0-71982528248e-container.json" />
-    <entry file="file://$PROJECT_DIR$/Report/result.html" />
-    <entry file="file://$PROJECT_DIR$/Report/result/a13ec7dc-2c55-457e-a420-9b560bf919fb-result.json" />
-    <entry file="file://$PROJECT_DIR$/Report/result/629fe90a-e272-46e4-afae-b820d9c51061-result.json" />
-    <entry file="file://$PROJECT_DIR$/Report/result/b44d2721-9d5c-47e1-a93a-10709fb9d58c-result.json" />
     <entry file="file://$PROJECT_DIR$/test_Pytest.py" />
     <entry file="file://$PROJECT_DIR$/Report/00749503-22f2-424f-8b98-73e50b99eac4-attachment.txt" />
     <entry file="file://$PROJECT_DIR$/Report/543afb42-29f9-45bb-946f-0ea1e24933c5-result.json" />
@@ -589,12 +648,18 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/testCases/testUserManagement.py" />
-    <entry file="file://$PROJECT_DIR$/Url/userManagement/userManagement.py">
+    <entry file="file://$PROJECT_DIR$/Utils/common.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="60">
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+          <folding>
+            <element signature="e#34#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/Login/abnormal_login_data.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -606,7 +671,30 @@
     <entry file="file://$PROJECT_DIR$/Data/Login/noraml_login_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="26" />
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElementLayer/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/userManagement/modify_user/modify_user_name_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElementLayer/deviceManagement/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/test_login/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -617,164 +705,249 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utils/common.py">
+    <entry file="file://$PROJECT_DIR$/Url/userManagement/userManagement.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OperationalLayer/deviceManagement/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OperationalLayer/Login/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="41" selection-end-column="20" />
           <folding>
-            <element signature="e#34#53#0" expanded="true" />
+            <element signature="e#35#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ElementLayer/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#34#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utils/operateDatabaseData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/userManagement/modify_user_name_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/userManagement/normal_add_user_data.py">
+    <entry file="file://$PROJECT_DIR$/Data/userManagement/add_user/normal_add_user_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ElementLayer/userManagement/useManagementElement.py">
+    <entry file="file://$PROJECT_DIR$/test_cases/test_user_management/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-824">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="-25">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_cases/conftest.py">
+    <entry file="file://$PROJECT_DIR$/test_cases/test_user_management/test_modify_user.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="447">
+          <caret line="31" column="53" lean-forward="true" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OperationalLayer/userManagement/userManagementModifyOperate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/deviceManagement/add_device/normal_add_device_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/test_user_management/test_add_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/test_login/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
           <folding>
-            <element signature="e#34#47#0" expanded="true" />
+            <element signature="e#35#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_cases/test_user_management/conftest.py">
+    <entry file="file://$PROJECT_DIR$/Data/deviceManagement/modify_device/normal_modify_device_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" selection-start-line="35" selection-start-column="2" selection-end-line="36" selection-end-column="16" />
+        <state relative-caret-position="90">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="79" column="43" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
           <folding>
-            <element signature="e#34#47#0" expanded="true" />
+            <element signature="e#35#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="97" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="97" />
+        <state relative-caret-position="270">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="48" />
           <folding>
             <element signature="e#34#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_cases/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OperationalLayer/UserManagement/userManagementModifyOperate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="27" selection-end-column="65" />
-          <folding>
-            <element signature="e#34#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OperationalLayer/UserManagement/userManagementAddOperate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-          <folding>
-            <element signature="e#34#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_cases/test_user_management/test_add_user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="75" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
-          <folding>
-            <element signature="e#34#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_cases/test_login/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-          <folding>
-            <element signature="e#35#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ElementLayer/Login/loginElement.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="135">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Base/base.py">
+    <entry file="file://$PROJECT_DIR$/ElementLayer/userManagement/useManagementElement.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        <state relative-caret-position="180">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OperationalLayer/Login/login.py">
+    <entry file="file://$PROJECT_DIR$/OperationalLayer/userManagement/userManagementAddOperate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-          <folding>
-            <element signature="e#35#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_cases/test_login/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="26" />
           <folding>
             <element signature="e#34#47#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Url/deviceManagement/deviceManagement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Url/systemManagement/systemManagement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/test_device_management/test_modify_device.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#36#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/SystemManagement/systemManagementData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElementLayer/systemManagement/systemManagementElement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OperationalLayer/systemManagement/systemManagementAddOperate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding>
+            <element signature="e#34#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OperationalLayer/deviceManagement/deviceManagementModifyOperate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="46" column="27" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OperationalLayer/deviceManagement/deviceManagementAddOperate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding>
+            <element signature="e#34#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/test_device_management/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="60" column="54" selection-start-line="60" selection-start-column="54" selection-end-line="60" selection-end-column="54" />
+          <folding>
+            <element signature="e#34#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/test_device_management/test_add_device.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="e#34#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="e#34#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElementLayer/deviceManagement/deviceManagementElement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="63" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/operateDatabaseData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
         </state>
       </provider>
     </entry>
