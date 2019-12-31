@@ -38,6 +38,9 @@ class DeviceManagementElement:
     # 生产厂家
     manufacturer_input = (By.XPATH, '//*[@class="manage-main"]/div[2]/div/div/div/div[2]/ul/li[6]/input')
 
+    # 修改生产厂家
+    modify_manufacturer_input = (By.XPATH, '//*[@class="manage-main"]/div[2]/div/div/div/div[2]/ul/li[5]/input')
+
     # 添加设备确定按钮
     add_device_confirm_button = (By.XPATH, '//*[@id="app"]/div[3]/div[2]/div[2]/div/div/div/div[3]/button[1]')
 
@@ -90,7 +93,7 @@ class DeviceManagementElement:
     first_row_device_status = (By.XPATH, '//*[@class="listData"]/li/span[9]')
 
     # 添加报错信息
-    add_error_information = (By.XPATH, '//*[@id="app"]/div[2]/div/div/div[2]')
+    add_error_information = (By.XPATH, '//*[@class="modal"]/transition/div/transition/div/div[2]')
 
 
 

@@ -3,6 +3,7 @@
 
 import allure
 import pytest
+import time
 from Data.deviceManagement.modify_device import normal_modify_device_data
 
 
@@ -18,6 +19,7 @@ class TestModifyDevice:
                                                                 normal_modify_device_data.get('modify_device_name'))
         state_modify_device_management_class.click_button()
 
+        time.sleep(1)
         assert normal_modify_device_data.normal_modify_device_data.get('modify_device_name') == \
                state_modify_device_management_class.assert_device_name()
 
@@ -32,6 +34,7 @@ class TestModifyDevice:
 
         state_modify_device_management_class.click_button()
 
+        time.sleep(1)
         assert normal_modify_device_data.normal_modify_device_data.get('modify_device_ip') == \
                state_modify_device_management_class.assert_device_ip()
 
@@ -45,6 +48,7 @@ class TestModifyDevice:
                                                               normal_modify_device_data.get('modify_manufacturer'))
 
         state_modify_device_management_class.click_button()
+        time.sleep(1)
 
         assert normal_modify_device_data.normal_modify_device_data.get('modify_manufacturer') == \
                state_modify_device_management_class.assert_manufacturer()

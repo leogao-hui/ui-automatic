@@ -13,8 +13,8 @@ class DeviceManagementModifyOperate(Base):
 
     @allure.step('1.点击空格 2.点击修改')
     def click_device_management(self):
-        self.click(DeviceManagementElement.first_blank_space)
-        self.click(DeviceManagementElement.modify_device_button)
+        self.use_js_click(DeviceManagementElement.first_blank_space)
+        self.use_js_click(DeviceManagementElement.modify_device_button)
 
     @allure.step('修改设备名称')
     def modify_device_name(self, modify_device_name):
@@ -28,12 +28,12 @@ class DeviceManagementModifyOperate(Base):
 
     @allure.step('修改生产厂家')
     def modify_manufacturer(self, modify_manufacturer):
-        self.clear(DeviceManagementElement.manufacturer_input)
-        self.send_keys(DeviceManagementElement.manufacturer_input, modify_manufacturer)
+        self.clear(DeviceManagementElement.modify_manufacturer_input)
+        self.send_keys(DeviceManagementElement.modify_manufacturer_input, modify_manufacturer)
 
     @allure.step('点击修改确定')
     def click_button(self):
-        self.click(DeviceManagementElement.add_device_confirm_button)
+        self.use_js_click(DeviceManagementElement.add_device_confirm_button)
 
     @allure.step('验证设备名称')
     def assert_device_name(self):

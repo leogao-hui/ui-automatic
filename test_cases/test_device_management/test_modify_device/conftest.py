@@ -5,13 +5,11 @@ import pytest
 from OperationalLayer.Login.login import LoginOperate
 from OperationalLayer.deviceManagement.deviceManagementAddOperate import DeviceManagementAddOperate
 from OperationalLayer.deviceManagement.deviceManagementModifyOperate import DeviceManagementModifyOperate
-from OperationalLayer.systemManagement.systemManagementAddOperate import SystemManagementAddOperate
 from Url.Login import login
 from Url.deviceManagement import deviceManagement
-from Url.systemManagement import systemManagement
 from Data.Login import noraml_login_data
 from Data.deviceManagement.add_device import normal_add_device_data
-from Data.SystemManagement import systemManagementData
+from Utils.operateDatabaseData import delete_database_data_test_ci, add_database_data_test_ci
 
 
 @pytest.fixture()
@@ -56,14 +54,8 @@ def state_modify_device_management_class(state_driver):
     return modify_device_management_operate
 
 
-# @pytest.fixture()
-# def state_add_system_device_management_class(state_driver):
-#     add_system_device_operate = SystemManagementAddOperate(state_driver, systemManagement.system_manager_url)
-#     return add_system_device_operate
-#
-#
-# @pytest.fixture()
-# def add_system_device(state_add_system_device_management_class):
-#     state_add_system_device_management_class.add_device_server(systemManagementData.add_device_server.get('name'),
-#                                                                systemManagementData.add_device_server.get('ip'),
-#                                                                systemManagementData.add_device_server.get('port'))
+@pytest.fixture(scope='function', autouse=True)
+def database_base_configuration():
+    delete_database_data_test_ci()
+    add_database_data_test_ci()
+
