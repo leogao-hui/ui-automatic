@@ -2,187 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3809248-d390-4a34-99a9-b73d488db7a7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ElementLayer/organizationalStructure/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElementLayer/organizationalStructure/organizationalStructureElement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OperationalLayer/organizationalStructure/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OperationalLayer/organizationalStructure/organizationalStructureOperate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/organizationStructure/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/organizationStructure/organizationStructureData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test_organization_structure/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test_organization_structure/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test_organization_structure/test_add_organization_structure.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/1315c2940b4202a7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/1699f24342242aa5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/1e6a97a4a6d26bd1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/21288d88215e56e5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/2496381dcd77bdb3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/28224a16ec1f9b13.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/2a923b3ceca9f993.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/2ad1567ffee748f7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/2b4b2a608638690d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/2fa747227e1daa1f.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/310be17f6959e25c.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/38868b75955a5fa4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/3b2ba26cfaa181e3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/3c2450364651384d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/418c66453ad1b76a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/42184637722d794.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/446933b26948c054.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/4bcb66b3dd19be21.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/55948daf17211af4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/5c6153ffe0e0727f.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/5c64d0cb4a54ffe9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/5d0629449a2513de.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/5d4a02e102e4d556.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/605350189add4cc9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/61c76a3322dbc577.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/6764d80d5816562d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/6d753223fb62e66f.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/72d4962851fb30b2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/756662b57cfa4c01.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/7a91b1b8b1f1c924.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/7ccd46a1e8f98e5d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/7d4c71c183288017.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/7fb2d301d27ab451.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/85457d5a752ac4d4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/85f255ced2248cf4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/87a47d073f9d63f4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/88f0d946f61d5e1f.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/8ad56cbd0e54e395.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/94cc1a46a2c6a395.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/9807b3ce44e901f7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/9b1eb68674f5ab2a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/ab7c7fa19e509fcf.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/aecbe57854677f0d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/b0f57a96d5062cff.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/b1f78a7b1c0746e.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/b4495947fd46e94e.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/b44c2aa7e9259fae.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/b693317e07dac2cc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/b73fa6bb9535ea81.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/b90054cca59e4023.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/b9800664e53b0b0e.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/bb254f17cf817251.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/bb7582a6fcfcad40.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/c374baa3eff945d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/c776bb98c6d1aff9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/ca1659e9a1d2a121.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/cbd35412a9dc8511.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/cbfbdc7c35c532ec.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/cc2cc5ebd5cf6bd8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/d767019b4ce8ad52.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/da0707c8d27ff184.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/da9f606de70f7fed.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/ddd92194d94bd909.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/de35fcb5ab104e8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/df9b2e927e1fae7b.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/e0d89f2193670fbe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/e8ec8b3abeb7c82f.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/eab013606e888933.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/efc0c51ad29ef68b.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/f4a409a7e58f0981.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/f7318df5ebe84f1a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/fbc2426c7f1806ac.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/fe3c26bf8ca8ff1d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/data/behaviors.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/data/behaviors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/data/categories.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/data/categories.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/data/packages.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/data/suites.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/data/suites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/105037f0321aa945.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/1182183bd722f52f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/12359363f422253e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/12b25be8fb13c168.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/12b7d47e166562c3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/167d2d52ece37038.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/1ccc2dbf2881b77d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/1fa0055e8b5dc7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/214f1e1a917687a9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/2159a6351b23c55b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/2632e0de2e10880.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/2700b1abbc62606b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/2973ad2f12855fc3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/2f9fbe6ca6285924.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/31c295ea8da62144.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/33aaf09bcee5f683.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/375910a5e8fadd91.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/3a9fec68387f8593.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/413ef02b7246484a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/439077294a88918d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/43ec7c6f21be4a6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/455083405c1e27ea.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/46bc7c63c72fe490.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/48aa115dc7a40edd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/4dd6aff9ca0d4b12.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/5000b9e47c318eff.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/580dace73da22f38.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/5d9f50c04f9e6a43.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/5fcfa94a99fbb569.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/603de5eff12ad2df.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/60548a49a52f3f5e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/624061e00b5511e1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/647a6b8edc76566d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/66ef9996c66067ef.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/6ac8e5b787505396.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/6f926194860103ed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/75af31578762e993.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/77c3aec47e60f16e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/7d5aecb7aa3f9611.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/7ecc58341ee3c114.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/820b50358391d2d0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/9035eb23cd91a0f9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/91484d1228375ea.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/96837959dbebd9a9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/99b1e2a2a26a3e79.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/a05ebb2b578ce553.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/a2349d8678e71536.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/a2e13cb8a98d66c4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/a5a1f622b12d1f97.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/a66ec4fe95e5c2ce.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/acab3bda5c2abf8d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/b54df50aa5c35c74.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/b852fa8d37d776e7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/b8ab3f759b9cce2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/cb17a951b59fd94e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/cc7fa327ca44a4c9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/d1592bb54e387626.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/d434a6ed8eb2e4d0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/d453c6748daa4b06.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/d55f9aafe1ee168d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/d63141f3b5cbad39.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/ddd6b8ebac7f5161.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/df847269aee75130.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/e4238650693c5029.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/e93799fb227802e8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/eb20bb746ec7efc7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/ed94b1af0882c698.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/eeaf1e94e2a41025.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/f492dcdcc1c46633.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/f6ae4179950a8374.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/f8f04ff6b1cc70a4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/fa141c978913b9de.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/fa2d0948c205824b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/fd41ad80f4308669.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/fda9fb1f916e26ff.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/fffbf4b455b69bf1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/data/timeline.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/report/export/influxDbData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/report/export/prometheusData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/history/categories-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/history/duration-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/history/history-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/history/history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/history/retry-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/widgets/behaviors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/widgets/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/widgets/categories-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/widgets/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/widgets/categories.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/widgets/duration-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/widgets/duration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/widgets/history-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/widgets/retry-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/widgets/severity.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/widgets/status-chart.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/widgets/suites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/widgets/summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ElementLayer/organizationalStructure/organizationalStructureElement.py" beforeDir="false" afterPath="$PROJECT_DIR$/ElementLayer/organizationalStructure/organizationalStructureElement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OperationalLayer/organizationalStructure/organizationalStructureOperate.py" beforeDir="false" afterPath="$PROJECT_DIR$/OperationalLayer/organizationalStructure/organizationalStructureOperate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/operateDatabaseData.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/operateDatabaseData.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -194,7 +22,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ui_automatic$run_cases_html.coverage" NAME="run_cases_html Coverage Results" MODIFIED="1576747494382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ui_automatic$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1577690005142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ui_automatic$operateDatabaseData.coverage" NAME="operateDatabaseData Coverage Results" MODIFIED="1577699204847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utils" />
+    <SUITE FILE_PATH="coverage/ui_automatic$operateDatabaseData.coverage" NAME="operateDatabaseData Coverage Results" MODIFIED="1577944792001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utils" />
     <SUITE FILE_PATH="coverage/ui_automatic$login.coverage" NAME="login Coverage Results" MODIFIED="1576745250145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Url/Login" />
     <SUITE FILE_PATH="coverage/ui_automatic$Unittests_for_testLogin_TestSearchPage.coverage" NAME="Unittests for testLogin.TestSearchPage Coverage Results" MODIFIED="1576745413586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case/Login" />
     <SUITE FILE_PATH="coverage/ui_automatic$common.coverage" NAME="common Coverage Results" MODIFIED="1577252930789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utils" />
@@ -205,14 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_add_device.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_cases/test_device_management/test_add_device/test_add_device.py">
+      <file leaf-file-name="operateDatabaseData.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Utils/operateDatabaseData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
-              <folding>
-                <element signature="e#36#49#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="416">
+              <caret line="94" selection-start-line="94" selection-end-line="94" />
             </state>
           </provider>
         </entry>
@@ -220,8 +45,8 @@
       <file leaf-file-name="test_modify_device.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_cases/test_device_management/test_modify_device/test_modify_device.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="11" />
               <folding>
                 <element signature="e#36#49#0" expanded="true" />
               </folding>
@@ -232,50 +57,17 @@
       <file leaf-file-name="organizationalStructureElement.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ElementLayer/organizationalStructure/organizationalStructureElement.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="495">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="systemManagementElement.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ElementLayer/systemManagement/systemManagementElement.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="60" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="organizationalStructureOperate.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="organizationalStructureOperate.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OperationalLayer/organizationalStructure/organizationalStructureOperate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-              <folding>
-                <element signature="e#34#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_cases/test_device_management/test_add_device/conftest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-              <folding>
-                <element signature="e#34#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="systemManagementAddOperate.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OperationalLayer/systemManagement/systemManagementAddOperate.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="37" />
+            <state relative-caret-position="347">
+              <caret line="33" column="42" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="42" />
               <folding>
                 <element signature="e#34#47#0" expanded="true" />
               </folding>
@@ -286,8 +78,8 @@
       <file leaf-file-name="login.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OperationalLayer/Login/login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="341">
+              <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="41" selection-end-column="20" />
               <folding>
                 <element signature="e#35#48#0" expanded="true" />
               </folding>
@@ -295,20 +87,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_login.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_cases/test_login/test_login.py">
+      <file leaf-file-name="test_add_organization_structure.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_cases/test_organization_structure/test_add_organization_structure.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+            <state relative-caret-position="465">
+              <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+              <folding>
+                <element signature="e#35#48#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="abnormal_login_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/Login/abnormal_login_data.py">
+      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_cases/test_organization_structure/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="386">
+              <caret line="31" column="38" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="38" />
+              <folding>
+                <element signature="e#35#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_add_user.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_cases/test_user_management/test_add_user.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="32" column="51" selection-start-line="9" selection-end-line="32" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_cases/test_user_management/conftest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="65" />
+              <folding>
+                <element signature="e#34#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="organizationStructureData.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/organizationStructure/organizationStructureData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -338,9 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ElementLayer/userManagement/useManagement.py" />
-        <option value="$PROJECT_DIR$/testCases/testUserManagement.py" />
-        <option value="$PROJECT_DIR$/testCases/conftest.py" />
         <option value="$PROJECT_DIR$/testCases/testLogin/conftest.py" />
         <option value="$PROJECT_DIR$/Url/Login/login.py" />
         <option value="$PROJECT_DIR$/Url/userManagement/userManagement.py" />
@@ -376,7 +201,6 @@
         <option value="$PROJECT_DIR$/ElementLayer/systemManagement/systemManagementElement.py" />
         <option value="$PROJECT_DIR$/OperationalLayer/systemManagement/systemManagementAddOperate.py" />
         <option value="$PROJECT_DIR$/OperationalLayer/deviceManagement/deviceManagementAddOperate.py" />
-        <option value="$PROJECT_DIR$/Utils/operateDatabaseData.py" />
         <option value="$PROJECT_DIR$/test_cases/test_device_management/test_add_device.py" />
         <option value="$PROJECT_DIR$/test_cases/test_device_management/test_modify_device.py" />
         <option value="$PROJECT_DIR$/Data/deviceManagement/modify_device/normal_modify_device_data.py" />
@@ -387,8 +211,12 @@
         <option value="$PROJECT_DIR$/test_cases/test_device_management/test_add_device/test_add_device.py" />
         <option value="$PROJECT_DIR$/test_cases/test_device_management/test_modify_device/conftest.py" />
         <option value="$PROJECT_DIR$/test_cases/test_device_management/test_add_device/conftest.py" />
+        <option value="$PROJECT_DIR$/Utils/operateDatabaseData.py" />
+        <option value="$PROJECT_DIR$/Data/organizationStructure/organizationStructureData.py" />
+        <option value="$PROJECT_DIR$/test_cases/test_organization_structure/conftest.py" />
         <option value="$PROJECT_DIR$/ElementLayer/organizationalStructure/organizationalStructureElement.py" />
         <option value="$PROJECT_DIR$/OperationalLayer/organizationalStructure/organizationalStructureOperate.py" />
+        <option value="$PROJECT_DIR$/test_cases/test_organization_structure/test_add_organization_structure.py" />
       </list>
     </option>
   </component>
@@ -419,6 +247,23 @@
             <path>
               <item name="ui-automatic" type="b2602c69:ProjectViewProjectNode" />
               <item name="ui-automatic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui-automatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui-automatic" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui-automatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui-automatic" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="organizationStructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui-automatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui-automatic" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="SystemManagement" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ui-automatic" type="b2602c69:ProjectViewProjectNode" />
@@ -457,13 +302,26 @@
             <path>
               <item name="ui-automatic" type="b2602c69:ProjectViewProjectNode" />
               <item name="ui-automatic" type="462c0819:PsiDirectoryNode" />
-              <item name="OperationalLayer" type="462c0819:PsiDirectoryNode" />
-              <item name="systemManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="test_cases" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ui-automatic" type="b2602c69:ProjectViewProjectNode" />
               <item name="ui-automatic" type="462c0819:PsiDirectoryNode" />
               <item name="test_cases" type="462c0819:PsiDirectoryNode" />
+              <item name="test_device_management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui-automatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui-automatic" type="462c0819:PsiDirectoryNode" />
+              <item name="test_cases" type="462c0819:PsiDirectoryNode" />
+              <item name="test_device_management" type="462c0819:PsiDirectoryNode" />
+              <item name="test_modify_device" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui-automatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui-automatic" type="462c0819:PsiDirectoryNode" />
+              <item name="test_cases" type="462c0819:PsiDirectoryNode" />
+              <item name="test_organization_structure" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ui-automatic" type="b2602c69:ProjectViewProjectNode" />
@@ -680,7 +538,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -688,8 +545,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28848484" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28848484" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -747,24 +604,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/run_cases_html.py" />
-    <entry file="file://$PROJECT_DIR$/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="547" column="8" selection-start-line="547" selection-start-column="8" selection-end-line="547" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OperationalLayer/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/testCases/testUserManagement.py" />
     <entry file="file://$PROJECT_DIR$/Utils/common.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -820,13 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_cases/test_user_management/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -920,13 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utils/operateDatabaseData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_cases/test_device_management/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -941,16 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
           <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="e#34#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -981,13 +796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_cases/test_user_management/test_add_user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ElementLayer/Login/loginElement.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1009,16 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OperationalLayer/Login/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding>
-            <element signature="e#35#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_cases/test_login/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1030,16 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_cases/test_device_management/test_modify_device/test_modify_device.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#36#49#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1080,19 +868,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="e#34#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/operateDatabaseData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/test_user_management/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="65" />
+          <folding>
+            <element signature="e#34#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/test_device_management/test_modify_device/test_modify_device.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="11" />
+          <folding>
+            <element signature="e#36#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/test_user_management/test_add_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="32" column="51" selection-start-line="9" selection-end-line="32" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/test_organization_structure/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="38" />
+          <folding>
+            <element signature="e#35#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/organizationStructure/organizationStructureData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OperationalLayer/Login/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="41" selection-end-column="20" />
+          <folding>
+            <element signature="e#35#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ElementLayer/organizationalStructure/organizationalStructureElement.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OperationalLayer/organizationalStructure/organizationalStructureOperate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="347">
+          <caret line="33" column="42" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="42" />
           <folding>
             <element signature="e#34#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/test_organization_structure/test_add_organization_structure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+          <folding>
+            <element signature="e#35#48#0" expanded="true" />
           </folding>
         </state>
       </provider>

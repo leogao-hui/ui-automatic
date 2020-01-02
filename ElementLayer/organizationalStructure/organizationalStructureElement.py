@@ -26,3 +26,10 @@ class OrganizationalStructureElement:
     add_organization_structure_name_input = (By.XPATH,
                                              '//*[@class="organization-tree"]/div/div/div/div[2]/ul/li[2]/input')
 
+    # 确认按钮
+    confirm_button = (By.XPATH, '//*[@class="organization-tree"]/div/div/div/div[3]/button[1]')
+
+    # 验证组织架构名称
+    assert_organization_name = (By.XPATH, '//*[@class="organization-tree"]/div/li/ul/div/li/div/span/span[1]')
+
+

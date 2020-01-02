@@ -93,4 +93,3 @@ def get_data_from_database(sql_sentence):
     db.close()
     return result
 
-
