@@ -1,15 +1,26 @@
 {
-  "total" : 2,
+  "total" : 6,
   "items" : [ {
-    "uid" : "6e12e06fb17fec92464fd1fd24bca881",
-    "name" : "登录",
+    "uid" : "f634771c880f4ac841b19abc5857189e",
+    "name" : "修改设备",
     "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
+      "failed" : 0,
+      "broken" : 3,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
+    }
+  }, {
+    "uid" : "6519274adc791cb053984c148aaad46a",
+    "name" : "设备管理",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
     }
   }, {
     "uid" : "f7a655af40ad79b56b018580d56baa3a",
@@ -21,6 +32,39 @@
       "passed" : 2,
       "unknown" : 0,
       "total" : 3
+    }
+  }, {
+    "uid" : "7ad7bdf6ae3c6b87eb6058b2191a2903",
+    "name" : "成员管理,修改人员",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "c31d69bcab1c803b5d2a8aae0169892c",
+    "name" : "成员管理,新增人员",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "6e12e06fb17fec92464fd1fd24bca881",
+    "name" : "登录",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
     }
   } ]
 }

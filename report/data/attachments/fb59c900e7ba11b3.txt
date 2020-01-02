@@ -1,0 +1,19 @@
+正在定位元素信息：定位方式->class name, value值->username
+正在定位元素信息：定位方式->class name, value值->password
+正在定位元素信息：定位方式->xpath, value值->//*[@class="idcode"]/input
+正在定位元素信息：定位方式->class name, value值->login-confirm
+正在定位元素信息：定位方式->xpath, value值->//*[text()="设备管理"]
+正在定位元素信息：定位方式->xpath, value值->//*[text()="添加"]
+正在定位元素信息：定位方式->xpath, value值->//*[@class="manage-main"]/div[2]/div/div/div/div[2]/ul/li/input
+正在定位元素信息：定位方式->xpath, value值->//*[@class="manage-main"]/div[2]/div/div/div/div[2]/ul/li[2]/input
+正在定位元素信息：定位方式->xpath, value值->//*[text()="编码器"]
+正在定位元素信息：定位方式->xpath, value值->//*[@class="manage-main"]/div[2]/div/div/div/div[2]/ul/li[5]/input
+正在定位元素信息：定位方式->xpath, value值->//*[@class="orgstructure-scroll-treebox"]/div/li/div/span/span/span
+正在定位元素信息：定位方式->xpath, value值->//*[@class="manage-main"]/div[2]/div/div/div/div[2]/ul/li[6]/input
+正在定位元素信息：定位方式->xpath, value值->//*[@id="app"]/div[3]/div[2]/div[2]/div/div/div/div[3]/button[1]
+正在定位元素信息：定位方式->xpath, value值->//*[@class="listData"]/li/span/label/span
+正在定位元素信息：定位方式->xpath, value值->//*[text()="修改"]
+正在定位元素信息：定位方式->xpath, value值->//*[@class="manage-main"]/div[2]/div/div/div/div[2]/ul/li[2]/input
+正在定位元素信息：定位方式->xpath, value值->//*[@class="manage-main"]/div[2]/div/div/div/div[2]/ul/li[2]/input
+正在定位元素信息：定位方式->xpath, value值->//*[@id="app"]/div[3]/div[2]/div[2]/div/div/div/div[3]/button[1]
+正在定位元素信息：定位方式->xpath, value值->//*[@class="listData"]/li/span[5]

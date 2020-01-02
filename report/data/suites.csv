@@ -1,27 +1,69 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed Dec 25 16:36:04 CST 2019","Wed Dec 25 16:36:09 CST 2019","5482","test_cases.test_user_management","test_add_user","TestAddUser","","","test_normal_add_user","
-        用例描述：输入编号，姓名，账号名，选择所属结构，正常新增用户
+"passed","Wed Dec 25 15:11:08 CST 2019","Wed Dec 25 15:11:10 CST 2019","1646","test_cases.test_user_management","test_add_user","TestAddUser","","","test_login",""
+"broken","Mon Dec 30 17:15:46 CST 2019","Mon Dec 30 17:15:46 CST 2019","0","test_cases.test_device_management","test_modify_device","TestModifyDevice","","","test_modify_device_ip",""
+"passed","Tue Dec 31 13:58:50 CST 2019","Tue Dec 31 13:58:52 CST 2019","1624","test_cases.test_device_management.test_add_device","test_add_device","TestAddDevice","","","test_manufacturer_mandatory","
+        用例描述：设备生产厂家必填
+        :param state_add_device_management_class:
+        :param state_driver:
+        :return:
+        "
+"passed","Tue Dec 31 13:59:16 CST 2019","Tue Dec 31 13:59:18 CST 2019","2538","test_cases.test_device_management.test_modify_device","test_modify_device","TestModifyDevice","","","test_modify_manufacturer",""
+"passed","Tue Dec 31 13:58:36 CST 2019","Tue Dec 31 13:58:40 CST 2019","3713","test_cases.test_device_management.test_add_device","test_add_device","TestAddDevice","","","test_device_name_mandatory","
+        用例描述：设备名称必填
+        :return:
+        "
+"passed","Tue Dec 31 12:12:03 CST 2019","Tue Dec 31 12:12:06 CST 2019","2711","test_cases.test_login","test_login","TestLogin","","","test_account_wrong_login","
+        用例描述：输入错误管理员账号，正确密码，验证码（随便），登录报错
         :return:
         "
 "passed","Tue Dec 24 16:38:44 CST 2019","Tue Dec 24 16:38:47 CST 2019","2796","testCases.testLogin","test_login","TestSearchPage","","","test_account_wrong_login","
         用例描述：输入错误管理员账号，正确密码，验证码（随便），登录报错
         :return:
         "
-"broken","Wed Dec 25 15:59:10 CST 2019","Wed Dec 25 15:59:10 CST 2019","0","test_cases.test_user_management","test_add_user","TestAddUser","","","test_modify_",""
-"passed","Wed Dec 25 15:11:08 CST 2019","Wed Dec 25 15:11:10 CST 2019","1646","test_cases.test_user_management","test_add_user","TestAddUser","","","test_login",""
+"passed","Tue Dec 31 13:58:58 CST 2019","Tue Dec 31 13:59:00 CST 2019","2043","test_cases.test_device_management.test_modify_device","test_modify_device","TestModifyDevice","","","test_modify_device_name",""
+"passed","Tue Dec 31 13:58:29 CST 2019","Tue Dec 31 13:58:31 CST 2019","2161","test_cases.test_device_management.test_add_device","test_add_device","TestAddDevice","","","test_normal_add_device","
+        用例描述：输入设备编号，设备ip，生产厂家，选择设备类型，组织机构，正常新增设备
+        :return:
+        "
+"broken","Mon Dec 30 17:15:47 CST 2019","Mon Dec 30 17:15:47 CST 2019","0","test_cases.test_device_management","test_modify_device","TestModifyDevice","","","test_modify_manufacturer",""
+"broken","Tue Dec 31 12:12:10 CST 2019","Tue Dec 31 12:12:11 CST 2019","1211","test_cases.test_user_management","test_add_user","TestAddUser","","","test_normal_add_user","
+        用例描述：输入编号，姓名，账号名，选择所属结构，正常新增用户
+        :return:
+        "
+"passed","Tue Dec 31 12:12:19 CST 2019","Tue Dec 31 12:12:23 CST 2019","4316","test_cases.test_user_management","test_modify_user","TestModifyUser","","","test_modify_user","
+        用例描述：修改用户姓名，正常修改
+        :return:
+        "
 "passed","Tue Dec 24 16:38:39 CST 2019","Tue Dec 24 16:38:41 CST 2019","2781","testCases.testLogin","test_login","TestSearchPage","","","test_normal_login","
         用例描述：输入正确管理员账号，正确密码，验证码（随便）正常登录
         :return:
         "
-"passed","Wed Dec 25 16:35:48 CST 2019","Wed Dec 25 16:35:52 CST 2019","3504","test_cases.test_login","test_login","TestLogin","","","test_normal_login","
-        用例描述：输入正确管理员账号，正确密码，验证码（随便）正常登录
+"passed","Tue Dec 31 13:58:44 CST 2019","Tue Dec 31 13:58:46 CST 2019","1926","test_cases.test_device_management.test_add_device","test_add_device","TestAddDevice","","","test_device_ip_mandatory","
+        用例描述：设备ip必填
+        :param state_add_device_management_class:
+        :param state_driver:
+        :return:
+        "
+"broken","Wed Dec 25 15:59:10 CST 2019","Wed Dec 25 15:59:10 CST 2019","0","test_cases.test_user_management","test_add_user","TestAddUser","","","test_modify_",""
+"broken","Mon Dec 30 17:15:39 CST 2019","Mon Dec 30 17:15:39 CST 2019","0","test_cases.test_device_management","test_add_device","TestAddDevice","","","test_normal_add_device","
+        用例描述：输入设备编号，设备ip，生产厂家，选择设备类型，组织机构，正常新增设备
         :return:
         "
 "passed","Wed Dec 25 15:31:47 CST 2019","Wed Dec 25 15:31:50 CST 2019","3091","test_cases.test_user_management","test_add_user","TestAddUser","","","test_normal_login","
         用例描述：输入编号，姓名，账号名，选择所属结构，正常新增用户
         :return:
         "
-"failed","Wed Dec 25 16:35:54 CST 2019","Wed Dec 25 16:35:57 CST 2019","3128","test_cases.test_login","test_login","TestLogin","","","test_account_wrong_login","
-        用例描述：输入错误管理员账号，正确密码，验证码（随便），登录报错
+"broken","Mon Dec 30 17:15:43 CST 2019","Mon Dec 30 17:15:43 CST 2019","0","test_cases.test_device_management","test_modify_device","TestModifyDevice","","","test_modify_device_name",""
+"passed","Tue Dec 31 13:59:06 CST 2019","Tue Dec 31 13:59:08 CST 2019","2102","test_cases.test_device_management.test_modify_device","test_modify_device","TestModifyDevice","","","test_modify_device_ip",""
+"broken","Fri Dec 27 10:38:05 CST 2019","Fri Dec 27 10:38:14 CST 2019","8511","test_cases.test_device_management","test_add_device","TestAddDevice","","","test_normal_add_user","
+        用例描述：输入编号，姓名，账号名，选择所属结构，正常新增用户
+        :return:
+        "
+"passed","Tue Dec 31 12:11:58 CST 2019","Tue Dec 31 12:12:00 CST 2019","2663","test_cases.test_login","test_login","TestLogin","","","test_normal_login","
+        用例描述：输入正确管理员账号，正确密码，验证码（随便）正常登录
+        :return:
+        "
+"broken","Thu Dec 26 10:16:15 CST 2019","Thu Dec 26 10:16:35 CST 2019","20297","test_cases.test_user_management","test_modify_user","TestAddUser","","","test_modify_","
+        用例描述：修改用户姓名，正常修改
         :return:
         "

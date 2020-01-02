@@ -7,7 +7,7 @@
       "name" : "_pytest.fixtures.FixtureLookupError: ('state_user_management_class', <FixtureRequest for <Function test_modify_>>)",
       "children" : [ {
         "name" : "test_modify_",
-        "uid" : "4dd6aff9ca0d4b12",
+        "uid" : "c509270e718c3645",
         "parentUid" : "db2a694a4810c23be127c6e9053412f5",
         "status" : "broken",
         "time" : {
@@ -20,28 +20,118 @@
         "parameters" : [ ]
       } ],
       "uid" : "db2a694a4810c23be127c6e9053412f5"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  }, {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "AssertionError: assert '登录信息有误，请确认后重新登录111' in '\\n\\t\\t\\t\\t\\t\\t登录信息有误，请确认后重新登录\\n\\t\\t\\t\\t\\t'\n +  where '\\n\\t\\t\\t\\t\\t\\t登录信息有误，请确认后重新登录\\n\\t\\t\\t\\t\\t' = <bound method LoginOperate.validate_account_not_exist of <OperationalLayer.Login.login.LoginOperate object at 0x10fe414a8>>()\n +    where <bound method LoginOperate.validate_account_not_exist of <OperationalLayer.Login.login.LoginOperate object at 0x10fe414a8>> = <OperationalLayer.Login.login.LoginOperate object at 0x10fe414a8>.validate_account_not_exist",
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
       "children" : [ {
-        "name" : "test_account_wrong_login",
-        "uid" : "5000b9e47c318eff",
-        "parentUid" : "ab3798569fdb6137062b4d9e779a9c9b",
-        "status" : "failed",
+        "name" : "test_modify_",
+        "uid" : "beb86314f833a275",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
         "time" : {
-          "start" : 1577262954757,
-          "stop" : 1577262957885,
-          "duration" : 3128
+          "start" : 1577326575506,
+          "stop" : 1577326595803,
+          "duration" : 20297
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_normal_add_user",
+        "uid" : "1df690698c1e70ca",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1577414285591,
+          "stop" : 1577414294102,
+          "duration" : 8511
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "ab3798569fdb6137062b4d9e779a9c9b"
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.88)\n  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.14.0 x86_64)",
+      "children" : [ {
+        "name" : "test_normal_add_device",
+        "uid" : "40503e976002c71c",
+        "parentUid" : "12f04de0f70643722f122e604349958d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1577697339045,
+          "stop" : 1577697339045,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "12f04de0f70643722f122e604349958d"
+    }, {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: crashed\n  (chrome not reachable)\n  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.14.0 x86_64)",
+      "children" : [ {
+        "name" : "test_modify_device_name",
+        "uid" : "170b3035dc96fe40",
+        "parentUid" : "18c87fdd0f0ad1491314b262c6bdc7e8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1577697343994,
+          "stop" : 1577697343994,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "18c87fdd0f0ad1491314b262c6bdc7e8"
+    }, {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Failed to create a Chrome process.\n  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.14.0 x86_64)",
+      "children" : [ {
+        "name" : "test_modify_device_ip",
+        "uid" : "b56e7ebf8f7caab6",
+        "parentUid" : "379f4adb1c23fa0d1f9b83dccc86bb78",
+        "status" : "broken",
+        "time" : {
+          "start" : 1577697346748,
+          "stop" : 1577697346748,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_modify_manufacturer",
+        "uid" : "8148c8b97431dda",
+        "parentUid" : "379f4adb1c23fa0d1f9b83dccc86bb78",
+        "status" : "broken",
+        "time" : {
+          "start" : 1577697347890,
+          "stop" : 1577697347890,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "379f4adb1c23fa0d1f9b83dccc86bb78"
+    }, {
+      "name" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=79.0.3945.88)\n  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.14.0 x86_64)",
+      "children" : [ {
+        "name" : "test_normal_add_user",
+        "uid" : "15235ec59d2b31",
+        "parentUid" : "71395ef8f13ff999323dd8db6323c853",
+        "status" : "broken",
+        "time" : {
+          "start" : 1577765530671,
+          "stop" : 1577765531882,
+          "duration" : 1211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "71395ef8f13ff999323dd8db6323c853"
     } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }
