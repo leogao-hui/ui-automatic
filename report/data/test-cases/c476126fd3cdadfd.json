@@ -1,0 +1,344 @@
+{
+  "uid" : "c476126fd3cdadfd",
+  "name" : "test_account_wrong_login",
+  "fullName" : "testCases.testLogin.test_login.TestSearchPage#test_account_wrong_login",
+  "historyId" : "fd7bdb65f4df5754da250d662b7e39f5",
+  "time" : {
+    "start" : 1577176724554,
+    "stop" : 1577176727350,
+    "duration" : 2796
+  },
+  "description" : "\n        用例描述：输入错误管理员账号，正确密码，验证码（随便），登录报错\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：输入错误管理员账号，正确密码，验证码（随便），登录报错\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "state_login_class",
+    "time" : {
+      "start" : 1577176724552,
+      "stop" : 1577176724553,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "database_base_configuration",
+    "time" : {
+      "start" : 1577176716250,
+      "stop" : 1577176716384,
+      "duration" : 134
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "清空数据库",
+      "time" : {
+        "start" : 1577176716250,
+        "stop" : 1577176716346,
+        "duration" : 96
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "新增基础数据",
+      "time" : {
+        "start" : 1577176716347,
+        "stop" : 1577176716384,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "state_driver",
+    "time" : {
+      "start" : 1577176721852,
+      "stop" : 1577176724551,
+      "duration" : 2699
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        用例描述：输入错误管理员账号，正确密码，验证码（随便），登录报错\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤1：到达登录页面",
+      "time" : {
+        "start" : 1577176724555,
+        "stop" : 1577176725431,
+        "duration" : 876
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "步骤2：输入账号，密码，验证码",
+      "time" : {
+        "start" : 1577176725432,
+        "stop" : 1577176726123,
+        "duration" : 691
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "account",
+        "value" : "'admin1'"
+      }, {
+        "name" : "password",
+        "value" : "'admin123'"
+      }, {
+        "name" : "verification_code",
+        "value" : "'1111'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "步骤3：点击登录按钮",
+      "time" : {
+        "start" : 1577176726124,
+        "stop" : 1577176726190,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "步骤4：获取账号不存在报错信息",
+      "time" : {
+        "start" : 1577176727194,
+        "stop" : 1577176727214,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "步骤5：关闭页面",
+      "time" : {
+        "start" : 1577176727214,
+        "stop" : 1577176727350,
+        "duration" : 136
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "e23449ff24523787",
+      "name" : "stdout",
+      "source" : "e23449ff24523787.txt",
+      "type" : "text/plain",
+      "size" : 384
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "这是一个测试账号错误登录的case"
+  }, {
+    "name" : "feature",
+    "value" : "登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases.testLogin"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSearchPage"
+  }, {
+    "name" : "host",
+    "value" : "kouhuideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "31521-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.testLogin.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9a7236ed2cbfeeb3",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '\\n\\t\\t\\t\\t\\t...录\\n\\t\\t\\t\\t\\t' == '登录信息有误，请确认后重新登录'\n  - \n  - \t\t\t\t\t\t登录信息有误，请确认后重新登录\n  ? ------               -\n  + 登录信息有误，请确认后重新登录\n  -",
+      "time" : {
+        "start" : 1577176655128,
+        "stop" : 1577176657681,
+        "duration" : 2553
+      }
+    }, {
+      "uid" : "111dfb59907d37de",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '\\n\\t\\t\\t\\t\\t\\t成功\\n\\t\\t\\t\\t\\t' == '登录信息有误，请确认后重新登录'\n  + 登录信息有误，请确认后重新登录\n  - \n  - \t\t\t\t\t\t成功\n  -",
+      "time" : {
+        "start" : 1577176071745,
+        "stop" : 1577176073652,
+        "duration" : 1907
+      }
+    }, {
+      "uid" : "79c862d7f0b642f4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert <bound method LoginOperate.validate_account_not_exist of <OperationalLayer.Login.login.LoginOperate object at 0x10b385588>> == '登录信息有误，请确认后重新登录'\n +  where <bound method LoginOperate.validate_account_not_exist of <OperationalLayer.Login.login.LoginOperate object at 0x10b385588>> = <OperationalLayer.Login.login.LoginOperate object at 0x10b385588>.validate_account_not_exist",
+      "time" : {
+        "start" : 1577175969834,
+        "stop" : 1577175971369,
+        "duration" : 1535
+      }
+    }, {
+      "uid" : "668430503a59407",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert <bound method LoginOperate.validate_account_not_exist of <OperationalLayer.Login.login.LoginOperate object at 0x108caf550>> == '登录信息有误，请确认后重新登录'\n +  where <bound method LoginOperate.validate_account_not_exist of <OperationalLayer.Login.login.LoginOperate object at 0x108caf550>> = <OperationalLayer.Login.login.LoginOperate object at 0x108caf550>.validate_account_not_exist",
+      "time" : {
+        "start" : 1577175874943,
+        "stop" : 1577175876985,
+        "duration" : 2042
+      }
+    }, {
+      "uid" : "6526af6e3181c8ab",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert <bound method LoginOperate.validate_account_not_exist of <OperationalLayer.Login.login.LoginOperate object at 0x101e7e828>> == '登录信息有误，请确认后重新登录'\n +  where <bound method LoginOperate.validate_account_not_exist of <OperationalLayer.Login.login.LoginOperate object at 0x101e7e828>> = <OperationalLayer.Login.login.LoginOperate object at 0x101e7e828>.validate_account_not_exist",
+      "time" : {
+        "start" : 1577173454548,
+        "stop" : 1577173457041,
+        "duration" : 2493
+      }
+    }, {
+      "uid" : "b1c855642ef9c442",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577173395678,
+        "stop" : 1577173397607,
+        "duration" : 1929
+      }
+    }, {
+      "uid" : "b0c966bbbe6ba178",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577173343992,
+        "stop" : 1577173346029,
+        "duration" : 2037
+      }
+    }, {
+      "uid" : "8b2c544d8c11e196",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'LoginOperate' object has no attribute 'find_element_by_xpath'",
+      "time" : {
+        "start" : 1577173161688,
+        "stop" : 1577173163236,
+        "duration" : 1548
+      }
+    }, {
+      "uid" : "5ce02907233d9f5a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert <bound method LoginOperate.validate_account_not_exist of <OperationalLayer.Login.login.LoginOperate object at 0x109752780>> == '登录信息有误，请确认后重新登录'\n +  where <bound method LoginOperate.validate_account_not_exist of <OperationalLayer.Login.login.LoginOperate object at 0x109752780>> = <OperationalLayer.Login.login.LoginOperate object at 0x109752780>.validate_account_not_exist",
+      "time" : {
+        "start" : 1577172763928,
+        "stop" : 1577172765689,
+        "duration" : 1761
+      }
+    }, {
+      "uid" : "bb02116aa63c1694",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert <bound method LoginOperate.validate_account_not_exist of <OperationalLayer.Login.login.LoginOperate object at 0x108a40550>> == '登录信息有误，请确认后重新登录'\n +  where <bound method LoginOperate.validate_account_not_exist of <OperationalLayer.Login.login.LoginOperate object at 0x108a40550>> = <OperationalLayer.Login.login.LoginOperate object at 0x108a40550>.validate_account_not_exist",
+      "time" : {
+        "start" : 1577172597986,
+        "stop" : 1577172600098,
+        "duration" : 2112
+      }
+    }, {
+      "uid" : "a80cbeaf42919c79",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert <bound method LoginOperate.validate_account_not_exist of <OperationalLayer.Login.login.LoginOperate object at 0x10331bda0>> == '登录信息有误，请确认后重新登录'\n +  where <bound method LoginOperate.validate_account_not_exist of <OperationalLayer.Login.login.LoginOperate object at 0x10331bda0>> = <OperationalLayer.Login.login.LoginOperate object at 0x10331bda0>.validate_account_not_exist",
+      "time" : {
+        "start" : 1577172460999,
+        "stop" : 1577172462677,
+        "duration" : 1678
+      }
+    }, {
+      "uid" : "5b9ac2839b7a525f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577170563994,
+        "stop" : 1577170566205,
+        "duration" : 2211
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c476126fd3cdadfd.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,374 @@
+{
+  "uid" : "709034368646e1a6",
+  "name" : "test_normal_add_device",
+  "fullName" : "test_cases.test_device_management.test_add_device.TestAddDevice#test_normal_add_device",
+  "historyId" : "801e32e4df4807d1493e03cea3cac3aa",
+  "time" : {
+    "start" : 1577697339045,
+    "stop" : 1577697339045,
+    "duration" : 0
+  },
+  "description" : "\n        用例描述：输入设备编号，设备ip，生产厂家，选择设备类型，组织机构，正常新增设备\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：输入设备编号，设备ip，生产厂家，选择设备类型，组织机构，正常新增设备\n    :return:\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.88)\n  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.14.0 x86_64)",
+  "statusTrace" : "state_login_class = <OperationalLayer.Login.login.LoginOperate object at 0x1104121d0>\n\n    @pytest.fixture()\n    def normal_login(state_login_class):\n        '''\n        用例描述：输入正确管理员账号，正确密码，验证码（随便）正常登录\n        :return:\n        '''\n    \n        state_login_class.get_login_url()\n        state_login_class.input_account(noraml_login_data.account, noraml_login_data.password,\n>                                       noraml_login_data.verification_code)\n\ntest_cases/test_device_management/conftest.py:32: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nOperationalLayer/Login/login.py:25: in input_account\n    self.send_keys(LoginElement.verification_code_input_box, verification_code)\nBase/base.py:45: in send_keys\n    ele = self.find_element(locator)\nBase/base.py:29: in find_element\n    ele = WebDriverWait(self.driver, self.timeout, self.t).until(EC.presence_of_element_located(locator))\n../../../Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/support/wait.py:71: in until\n    value = method(self._driver)\n../../../Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/support/expected_conditions.py:64: in __call__\n    return _find_element(driver, self.locator)\n../../../Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/support/expected_conditions.py:415: in _find_element\n    raise e\n../../../Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/support/expected_conditions.py:411: in _find_element\n    return driver.find_element(*by)\n../../../Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py:978: in find_element\n    'value': value})['value']\n../../../Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py:321: in execute\n    self.error_handler.check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x1103f5ef0>\nresponse = {'sessionId': '257fcbf37c05de8edbf516472839a0f3', 'status': 23, 'value': {'message': 'no such window: target window al... (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.14.0 x86_64)'}}\n\n    def check_response(self, response):\n        \"\"\"\n        Checks that a JSON response from the WebDriver does not have an error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get('status', None)\n        if status is None or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get('value', None)\n            if value_json and isinstance(value_json, basestring):\n                import json\n                try:\n                    value = json.loads(value_json)\n                    if len(value.keys()) == 1:\n                        value = value['value']\n                    status = value.get('error', None)\n                    if status is None:\n                        status = value[\"status\"]\n                        message = value[\"value\"]\n                        if not isinstance(message, basestring):\n                            value = message\n                            message = message.get('message')\n                    else:\n                        message = value.get('message', None)\n                except ValueError:\n                    pass\n    \n        exception_class = ErrorInResponseException\n        if status in ErrorCode.NO_SUCH_ELEMENT:\n            exception_class = NoSuchElementException\n        elif status in ErrorCode.NO_SUCH_FRAME:\n            exception_class = NoSuchFrameException\n        elif status in ErrorCode.NO_SUCH_WINDOW:\n            exception_class = NoSuchWindowException\n        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:\n            exception_class = StaleElementReferenceException\n        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:\n            exception_class = ElementNotVisibleException\n        elif status in ErrorCode.INVALID_ELEMENT_STATE:\n            exception_class = InvalidElementStateException\n        elif status in ErrorCode.INVALID_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER:\n            exception_class = InvalidSelectorException\n        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:\n            exception_class = ElementNotSelectableException\n        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:\n            exception_class = ElementNotInteractableException\n        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:\n            exception_class = InvalidCookieDomainException\n        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:\n            exception_class = UnableToSetCookieException\n        elif status in ErrorCode.TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.SCRIPT_TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.UNKNOWN_ERROR:\n            exception_class = WebDriverException\n        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:\n            exception_class = UnexpectedAlertPresentException\n        elif status in ErrorCode.NO_ALERT_OPEN:\n            exception_class = NoAlertPresentException\n        elif status in ErrorCode.IME_NOT_AVAILABLE:\n            exception_class = ImeNotAvailableException\n        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:\n            exception_class = ImeActivationFailedException\n        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:\n            exception_class = MoveTargetOutOfBoundsException\n        elif status in ErrorCode.JAVASCRIPT_ERROR:\n            exception_class = JavascriptException\n        elif status in ErrorCode.SESSION_NOT_CREATED:\n            exception_class = SessionNotCreatedException\n        elif status in ErrorCode.INVALID_ARGUMENT:\n            exception_class = InvalidArgumentException\n        elif status in ErrorCode.NO_SUCH_COOKIE:\n            exception_class = NoSuchCookieException\n        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:\n            exception_class = ScreenshotException\n        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:\n            exception_class = ElementClickInterceptedException\n        elif status in ErrorCode.INSECURE_CERTIFICATE:\n            exception_class = InsecureCertificateException\n        elif status in ErrorCode.INVALID_COORDINATES:\n            exception_class = InvalidCoordinatesException\n        elif status in ErrorCode.INVALID_SESSION_ID:\n            exception_class = InvalidSessionIdException\n        elif status in ErrorCode.UNKNOWN_METHOD:\n            exception_class = UnknownMethodException\n        else:\n            exception_class = WebDriverException\n        if value == '' or value is None:\n            value = response['value']\n        if isinstance(value, basestring):\n            if exception_class == ErrorInResponseException:\n                raise exception_class(response, value)\n            raise exception_class(value)\n        if message == \"\" and 'message' in value:\n            message = value['message']\n    \n        screen = None\n        if 'screen' in value:\n            screen = value['screen']\n    \n        stacktrace = None\n        if 'stackTrace' in value and value['stackTrace']:\n            stacktrace = []\n            try:\n                for frame in value['stackTrace']:\n                    line = self._value_or_default(frame, 'lineNumber', '')\n                    file = self._value_or_default(frame, 'fileName', '<anonymous>')\n                    if line:\n                        file = \"%s:%s\" % (file, line)\n                    meth = self._value_or_default(frame, 'methodName', '<anonymous>')\n                    if 'className' in frame:\n                        meth = \"%s.%s\" % (frame['className'], meth)\n                    msg = \"    at %s (%s)\"\n                    msg = msg % (meth, file)\n                    stacktrace.append(msg)\n            except TypeError:\n                pass\n        if exception_class == ErrorInResponseException:\n            raise exception_class(response, message)\n        elif exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if 'data' in value:\n                alert_text = value['data'].get('text')\n            elif 'alert' in value:\n                alert_text = value['alert'].get('text')\n            raise exception_class(message, screen, stacktrace, alert_text)\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nE       from unknown error: web view not found\nE         (Session info: chrome=79.0.3945.88)\nE         (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.14.0 x86_64)\n\n../../../Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py:242: NoSuchWindowException",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "state_login_class",
+    "time" : {
+      "start" : 1577697342262,
+      "stop" : 1577697342263,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "normal_login",
+    "time" : {
+      "start" : 1577697342263,
+      "stop" : 1577697343707,
+      "duration" : 1444
+    },
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.88)\n  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.14.0 x86_64)\n\n",
+    "statusTrace" : "  File \"/Users/kouhui/Documents/python/ui-automation/venv/lib/python3.6/site-packages/pluggy/callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"/Users/kouhui/Documents/python/ui-automation/venv/lib/python3.6/site-packages/_pytest/fixtures.py\", line 957, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/Users/kouhui/Documents/python/ui-automation/venv/lib/python3.6/site-packages/_pytest/fixtures.py\", line 787, in call_fixture_func\n    res = fixturefunc(**kwargs)\n  File \"/Users/kouhui/Desktop/automatic/ui-automatic/test_cases/test_device_management/conftest.py\", line 32, in normal_login\n    noraml_login_data.verification_code)\n  File \"/Users/kouhui/Documents/python/ui-automation/venv/lib/python3.6/site-packages/allure_commons/_allure.py\", line 157, in impl\n    return func(*a, **kw)\n  File \"/Users/kouhui/Desktop/automatic/ui-automatic/OperationalLayer/Login/login.py\", line 25, in input_account\n    self.send_keys(LoginElement.verification_code_input_box, verification_code)\n  File \"/Users/kouhui/Desktop/automatic/ui-automatic/Base/base.py\", line 45, in send_keys\n    ele = self.find_element(locator)\n  File \"/Users/kouhui/Desktop/automatic/ui-automatic/Base/base.py\", line 29, in find_element\n    ele = WebDriverWait(self.driver, self.timeout, self.t).until(EC.presence_of_element_located(locator))\n  File \"/Users/kouhui/Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/support/wait.py\", line 71, in until\n    value = method(self._driver)\n  File \"/Users/kouhui/Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/support/expected_conditions.py\", line 64, in __call__\n    return _find_element(driver, self.locator)\n  File \"/Users/kouhui/Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/support/expected_conditions.py\", line 415, in _find_element\n    raise e\n  File \"/Users/kouhui/Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/support/expected_conditions.py\", line 411, in _find_element\n    return driver.find_element(*by)\n  File \"/Users/kouhui/Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py\", line 978, in find_element\n    'value': value})['value']\n  File \"/Users/kouhui/Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"/Users/kouhui/Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ {
+      "name" : "步骤1：到达登录页面",
+      "time" : {
+        "start" : 1577697342264,
+        "stop" : 1577697343135,
+        "duration" : 871
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "步骤2：输入账号，密码，验证码",
+      "time" : {
+        "start" : 1577697343135,
+        "stop" : 1577697343700,
+        "duration" : 565
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.88)\n  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.14.0 x86_64)\n\n",
+      "statusTrace" : "  File \"/Users/kouhui/Documents/python/ui-automation/venv/lib/python3.6/site-packages/allure_commons/_allure.py\", line 157, in impl\n    return func(*a, **kw)\n  File \"/Users/kouhui/Desktop/automatic/ui-automatic/OperationalLayer/Login/login.py\", line 25, in input_account\n    self.send_keys(LoginElement.verification_code_input_box, verification_code)\n  File \"/Users/kouhui/Desktop/automatic/ui-automatic/Base/base.py\", line 45, in send_keys\n    ele = self.find_element(locator)\n  File \"/Users/kouhui/Desktop/automatic/ui-automatic/Base/base.py\", line 29, in find_element\n    ele = WebDriverWait(self.driver, self.timeout, self.t).until(EC.presence_of_element_located(locator))\n  File \"/Users/kouhui/Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/support/wait.py\", line 71, in until\n    value = method(self._driver)\n  File \"/Users/kouhui/Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/support/expected_conditions.py\", line 64, in __call__\n    return _find_element(driver, self.locator)\n  File \"/Users/kouhui/Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/support/expected_conditions.py\", line 415, in _find_element\n    raise e\n  File \"/Users/kouhui/Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/support/expected_conditions.py\", line 411, in _find_element\n    return driver.find_element(*by)\n  File \"/Users/kouhui/Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py\", line 978, in find_element\n    'value': value})['value']\n  File \"/Users/kouhui/Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"/Users/kouhui/Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "account",
+        "value" : "'admin'"
+      }, {
+        "name" : "password",
+        "value" : "'admin123'"
+      }, {
+        "name" : "verification_code",
+        "value" : "'1111'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "state_driver",
+    "time" : {
+      "start" : 1577697339159,
+      "stop" : 1577697342261,
+      "duration" : 3102
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "database_base_configuration",
+    "time" : {
+      "start" : 1577697339046,
+      "stop" : 1577697339159,
+      "duration" : 113
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "清空数据库",
+      "time" : {
+        "start" : 1577697339047,
+        "stop" : 1577697339118,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "新增基础数据",
+      "time" : {
+        "start" : 1577697339118,
+        "stop" : 1577697339159,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        用例描述：输入设备编号，设备ip，生产厂家，选择设备类型，组织机构，正常新增设备\n        :return:\n        ",
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.88)\n  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.14.0 x86_64)",
+    "statusTrace" : "state_login_class = <OperationalLayer.Login.login.LoginOperate object at 0x1104121d0>\n\n    @pytest.fixture()\n    def normal_login(state_login_class):\n        '''\n        用例描述：输入正确管理员账号，正确密码，验证码（随便）正常登录\n        :return:\n        '''\n    \n        state_login_class.get_login_url()\n        state_login_class.input_account(noraml_login_data.account, noraml_login_data.password,\n>                                       noraml_login_data.verification_code)\n\ntest_cases/test_device_management/conftest.py:32: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nOperationalLayer/Login/login.py:25: in input_account\n    self.send_keys(LoginElement.verification_code_input_box, verification_code)\nBase/base.py:45: in send_keys\n    ele = self.find_element(locator)\nBase/base.py:29: in find_element\n    ele = WebDriverWait(self.driver, self.timeout, self.t).until(EC.presence_of_element_located(locator))\n../../../Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/support/wait.py:71: in until\n    value = method(self._driver)\n../../../Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/support/expected_conditions.py:64: in __call__\n    return _find_element(driver, self.locator)\n../../../Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/support/expected_conditions.py:415: in _find_element\n    raise e\n../../../Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/support/expected_conditions.py:411: in _find_element\n    return driver.find_element(*by)\n../../../Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py:978: in find_element\n    'value': value})['value']\n../../../Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py:321: in execute\n    self.error_handler.check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x1103f5ef0>\nresponse = {'sessionId': '257fcbf37c05de8edbf516472839a0f3', 'status': 23, 'value': {'message': 'no such window: target window al... (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.14.0 x86_64)'}}\n\n    def check_response(self, response):\n        \"\"\"\n        Checks that a JSON response from the WebDriver does not have an error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get('status', None)\n        if status is None or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get('value', None)\n            if value_json and isinstance(value_json, basestring):\n                import json\n                try:\n                    value = json.loads(value_json)\n                    if len(value.keys()) == 1:\n                        value = value['value']\n                    status = value.get('error', None)\n                    if status is None:\n                        status = value[\"status\"]\n                        message = value[\"value\"]\n                        if not isinstance(message, basestring):\n                            value = message\n                            message = message.get('message')\n                    else:\n                        message = value.get('message', None)\n                except ValueError:\n                    pass\n    \n        exception_class = ErrorInResponseException\n        if status in ErrorCode.NO_SUCH_ELEMENT:\n            exception_class = NoSuchElementException\n        elif status in ErrorCode.NO_SUCH_FRAME:\n            exception_class = NoSuchFrameException\n        elif status in ErrorCode.NO_SUCH_WINDOW:\n            exception_class = NoSuchWindowException\n        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:\n            exception_class = StaleElementReferenceException\n        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:\n            exception_class = ElementNotVisibleException\n        elif status in ErrorCode.INVALID_ELEMENT_STATE:\n            exception_class = InvalidElementStateException\n        elif status in ErrorCode.INVALID_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER:\n            exception_class = InvalidSelectorException\n        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:\n            exception_class = ElementNotSelectableException\n        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:\n            exception_class = ElementNotInteractableException\n        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:\n            exception_class = InvalidCookieDomainException\n        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:\n            exception_class = UnableToSetCookieException\n        elif status in ErrorCode.TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.SCRIPT_TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.UNKNOWN_ERROR:\n            exception_class = WebDriverException\n        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:\n            exception_class = UnexpectedAlertPresentException\n        elif status in ErrorCode.NO_ALERT_OPEN:\n            exception_class = NoAlertPresentException\n        elif status in ErrorCode.IME_NOT_AVAILABLE:\n            exception_class = ImeNotAvailableException\n        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:\n            exception_class = ImeActivationFailedException\n        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:\n            exception_class = MoveTargetOutOfBoundsException\n        elif status in ErrorCode.JAVASCRIPT_ERROR:\n            exception_class = JavascriptException\n        elif status in ErrorCode.SESSION_NOT_CREATED:\n            exception_class = SessionNotCreatedException\n        elif status in ErrorCode.INVALID_ARGUMENT:\n            exception_class = InvalidArgumentException\n        elif status in ErrorCode.NO_SUCH_COOKIE:\n            exception_class = NoSuchCookieException\n        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:\n            exception_class = ScreenshotException\n        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:\n            exception_class = ElementClickInterceptedException\n        elif status in ErrorCode.INSECURE_CERTIFICATE:\n            exception_class = InsecureCertificateException\n        elif status in ErrorCode.INVALID_COORDINATES:\n            exception_class = InvalidCoordinatesException\n        elif status in ErrorCode.INVALID_SESSION_ID:\n            exception_class = InvalidSessionIdException\n        elif status in ErrorCode.UNKNOWN_METHOD:\n            exception_class = UnknownMethodException\n        else:\n            exception_class = WebDriverException\n        if value == '' or value is None:\n            value = response['value']\n        if isinstance(value, basestring):\n            if exception_class == ErrorInResponseException:\n                raise exception_class(response, value)\n            raise exception_class(value)\n        if message == \"\" and 'message' in value:\n            message = value['message']\n    \n        screen = None\n        if 'screen' in value:\n            screen = value['screen']\n    \n        stacktrace = None\n        if 'stackTrace' in value and value['stackTrace']:\n            stacktrace = []\n            try:\n                for frame in value['stackTrace']:\n                    line = self._value_or_default(frame, 'lineNumber', '')\n                    file = self._value_or_default(frame, 'fileName', '<anonymous>')\n                    if line:\n                        file = \"%s:%s\" % (file, line)\n                    meth = self._value_or_default(frame, 'methodName', '<anonymous>')\n                    if 'className' in frame:\n                        meth = \"%s.%s\" % (frame['className'], meth)\n                    msg = \"    at %s (%s)\"\n                    msg = msg % (meth, file)\n                    stacktrace.append(msg)\n            except TypeError:\n                pass\n        if exception_class == ErrorInResponseException:\n            raise exception_class(response, message)\n        elif exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if 'data' in value:\n                alert_text = value['data'].get('text')\n            elif 'alert' in value:\n                alert_text = value['alert'].get('text')\n            raise exception_class(message, screen, stacktrace, alert_text)\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nE       from unknown error: web view not found\nE         (Session info: chrome=79.0.3945.88)\nE         (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.14.0 x86_64)\n\n../../../Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py:242: NoSuchWindowException",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a9fe7ef7c1fedae2",
+      "name" : "stdout",
+      "source" : "a9fe7ef7c1fedae2.txt",
+      "type" : "text/plain",
+      "size" : 232
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "这是一个测试正常新增设备的case"
+  }, {
+    "name" : "feature",
+    "value" : "设备管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases.test_device_management"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_device"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddDevice"
+  }, {
+    "name" : "host",
+    "value" : "kouhuideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "12845-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.test_device_management.test_add_device"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "672fee6a1ffa9619",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'ExecuteScript'",
+      "time" : {
+        "start" : 1577680214714,
+        "stop" : 1577680216016,
+        "duration" : 1302
+      }
+    }, {
+      "uid" : "adf295a677ff7bed",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: arguments[0].click is not a function\n  (Session info: chrome=79.0.3945.88)\n  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.14.0 x86_64)",
+      "time" : {
+        "start" : 1577680049121,
+        "stop" : 1577680051523,
+        "duration" : 2402
+      }
+    }, {
+      "uid" : "2ecdc5a2c57941f9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Element <input type=\"text\" readonly=\"readonly\" placeholder=\"请选择\" class=\"selliinp\"> is not clickable at point (643, 393). Other element would receive the click: <li class=\"el-select-dropdown__item deviceItem playeropt\">...</li>\n  (Session info: chrome=79.0.3945.88)\n  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.14.0 x86_64)",
+      "time" : {
+        "start" : 1577678667826,
+        "stop" : 1577678669524,
+        "duration" : 1698
+      }
+    }, {
+      "uid" : "90446455717f4d1c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Element <input type=\"text\" readonly=\"readonly\" placeholder=\"请选择\" class=\"selliinp\"> is not clickable at point (643, 393). Other element would receive the click: <li class=\"el-select-dropdown__item deviceItem playeropt\">...</li>\n  (Session info: chrome=79.0.3945.88)\n  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.14.0 x86_64)",
+      "time" : {
+        "start" : 1577676302786,
+        "stop" : 1577676304174,
+        "duration" : 1388
+      }
+    }, {
+      "uid" : "9ed3e789ebbee85a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Element <input type=\"text\" readonly=\"readonly\" placeholder=\"请选择\" class=\"selliinp\"> is not clickable at point (643, 393). Other element would receive the click: <li class=\"el-select-dropdown__item deviceItem playeropt\">...</li>\n  (Session info: chrome=79.0.3945.88)\n  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.14.0 x86_64)",
+      "time" : {
+        "start" : 1577676135251,
+        "stop" : 1577676136960,
+        "duration" : 1709
+      }
+    }, {
+      "uid" : "4be371bb2ac100bd",
+      "status" : "broken",
+      "statusDetails" : "pymysql.err.OperationalError: (2003, \"Can't connect to MySQL server on '10.66.8.200' (timed out)\")",
+      "time" : {
+        "start" : 1577670569094,
+        "stop" : 1577670569094,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a6a2cb8efbc77129",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Element <input type=\"text\" readonly=\"readonly\" placeholder=\"请选择\" class=\"selliinp\"> is not clickable at point (643, 393). Other element would receive the click: <li class=\"el-select-dropdown__item deviceItem playeropt\">...</li>\n  (Session info: chrome=79.0.3945.88)\n  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.14.0 x86_64)",
+      "time" : {
+        "start" : 1577670407925,
+        "stop" : 1577670410055,
+        "duration" : 2130
+      }
+    }, {
+      "uid" : "523e51dd7bf85fe0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Element <input type=\"text\" readonly=\"readonly\" placeholder=\"请选择\" class=\"selliinp\"> is not clickable at point (643, 393). Other element would receive the click: <li class=\"el-select-dropdown__item deviceItem playeropt\">...</li>\n  (Session info: chrome=79.0.3945.88)\n  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.14.0 x86_64)",
+      "time" : {
+        "start" : 1577432038911,
+        "stop" : 1577432040502,
+        "duration" : 1591
+      }
+    }, {
+      "uid" : "f3c33bbed290bb83",
+      "status" : "broken",
+      "statusDetails" : "TypeError: choose_organization_manufacturer() missing 1 required positional argument: 'manufacturer'",
+      "time" : {
+        "start" : 1577431979826,
+        "stop" : 1577431982580,
+        "duration" : 2754
+      }
+    }, {
+      "uid" : "80fd12333d202c66",
+      "status" : "broken",
+      "statusDetails" : "TypeError: choose_organization_manufacturer() missing 1 required positional argument: 'manufacturer'",
+      "time" : {
+        "start" : 1577431863267,
+        "stop" : 1577431864675,
+        "duration" : 1408
+      }
+    }, {
+      "uid" : "7908384e32295d3",
+      "status" : "broken",
+      "statusDetails" : "TypeError: input_device_name_ip() missing 2 required positional arguments: 'device_name' and 'device_ip'",
+      "time" : {
+        "start" : 1577431771320,
+        "stop" : 1577431772281,
+        "duration" : 961
+      }
+    }, {
+      "uid" : "f197b2500adc87ed",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'tuple' object has no attribute 'id'",
+      "time" : {
+        "start" : 1577428697880,
+        "stop" : 1577428699202,
+        "duration" : 1322
+      }
+    }, {
+      "uid" : "b348b554d593866a",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'tuple' object has no attribute 'id'",
+      "time" : {
+        "start" : 1577428517309,
+        "stop" : 1577428518925,
+        "duration" : 1616
+      }
+    }, {
+      "uid" : "db576cbc2111dcd6",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'tuple' object has no attribute 'id'",
+      "time" : {
+        "start" : 1577428411836,
+        "stop" : 1577428413505,
+        "duration" : 1669
+      }
+    }, {
+      "uid" : "fec0b8429241a3db",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1577414676598,
+        "stop" : 1577414685568,
+        "duration" : 8970
+      }
+    }, {
+      "uid" : "70ed7f9610bc2763",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1577414586920,
+        "stop" : 1577414595451,
+        "duration" : 8531
+      }
+    }, {
+      "uid" : "42c49ad018162f61",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1577414417283,
+        "stop" : 1577414425881,
+        "duration" : 8598
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "709034368646e1a6.json",
+  "parameterValues" : [ ]
+}

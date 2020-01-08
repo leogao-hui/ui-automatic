@@ -1,0 +1,321 @@
+{
+  "uid" : "8984b549005e212a",
+  "name" : "test_device_name_mandatory",
+  "fullName" : "test_cases.test_device_management.test_add_device.test_add_device.TestAddDevice#test_device_name_mandatory",
+  "historyId" : "cf8a7ec5892ade40d9237e35c5f80935",
+  "time" : {
+    "start" : 1577771916542,
+    "stop" : 1577771920255,
+    "duration" : 3713
+  },
+  "description" : "\n        用例描述：设备名称必填\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：设备名称必填\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "state_add_device_management_class",
+    "time" : {
+      "start" : 1577771916540,
+      "stop" : 1577771916540,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "database_base_configuration",
+    "time" : {
+      "start" : 1577771905068,
+      "stop" : 1577771905218,
+      "duration" : 150
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "清空数据库",
+      "time" : {
+        "start" : 1577771905069,
+        "stop" : 1577771905163,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "新增基础数据",
+      "time" : {
+        "start" : 1577771905163,
+        "stop" : 1577771905218,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "state_driver",
+    "time" : {
+      "start" : 1577771911869,
+      "stop" : 1577771914468,
+      "duration" : 2599
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "normal_login",
+    "time" : {
+      "start" : 1577771914470,
+      "stop" : 1577771916540,
+      "duration" : 2070
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤1：到达登录页面",
+      "time" : {
+        "start" : 1577771914471,
+        "stop" : 1577771915693,
+        "duration" : 1222
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "步骤2：输入账号，密码，验证码",
+      "time" : {
+        "start" : 1577771915693,
+        "stop" : 1577771916482,
+        "duration" : 789
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "account",
+        "value" : "'admin'"
+      }, {
+        "name" : "password",
+        "value" : "'admin123'"
+      }, {
+        "name" : "verification_code",
+        "value" : "'1111'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "步骤3：点击登录按钮",
+      "time" : {
+        "start" : 1577771916482,
+        "stop" : 1577771916540,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "state_login_class",
+    "time" : {
+      "start" : 1577771914469,
+      "stop" : 1577771914470,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        用例描述：设备名称必填\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1.点击设备管理 2.点击新增按钮",
+      "time" : {
+        "start" : 1577771916542,
+        "stop" : 1577771917415,
+        "duration" : 873
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "3.输入设备名称 4.输入设备ip",
+      "time" : {
+        "start" : 1577771917416,
+        "stop" : 1577771917756,
+        "duration" : 340
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "device_name",
+        "value" : "''"
+      }, {
+        "name" : "device_ip",
+        "value" : "'192.168.1.1'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "选择设备类型",
+      "time" : {
+        "start" : 1577771917756,
+        "stop" : 1577771917798,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "选择所属机构，输入生产厂家, 点击确定",
+      "time" : {
+        "start" : 1577771917798,
+        "stop" : 1577771918112,
+        "duration" : 314
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "manufacturer",
+        "value" : "'测试厂家'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "关闭页面",
+      "time" : {
+        "start" : 1577771920117,
+        "stop" : 1577771920254,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "97f550ecb06d76e5",
+      "name" : "stdout",
+      "source" : "97f550ecb06d76e5.txt",
+      "type" : "text/plain",
+      "size" : 1311
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "设备管理"
+  }, {
+    "name" : "story",
+    "value" : "这是一个测试设备名称必填项的case"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases.test_device_management.test_add_device"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_device"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddDevice"
+  }, {
+    "name" : "host",
+    "value" : "kouhuideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "25509-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.test_device_management.test_add_device.test_add_device"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8984b549005e212a.json",
+  "parameterValues" : [ ]
+}

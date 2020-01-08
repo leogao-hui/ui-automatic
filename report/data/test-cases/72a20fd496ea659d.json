@@ -1,0 +1,138 @@
+{
+  "uid" : "72a20fd496ea659d",
+  "name" : "test_normal_add_user",
+  "fullName" : "test_cases.test_device_management.test_add_device.TestAddDevice#test_normal_add_user",
+  "historyId" : "27e69827bdf8a65d0aac598fe45f88b2",
+  "time" : {
+    "start" : 1577411471607,
+    "stop" : 1577411471607,
+    "duration" : 0
+  },
+  "description" : "\n        用例描述：输入编号，姓名，账号名，选择所属结构，正常新增用户\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：输入编号，姓名，账号名，选择所属结构，正常新增用户\n    :return:\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "_pytest.fixtures.FixtureLookupError: ('state_drviver', <SubRequest 'state_add_device_management_class' for <Function test_normal_add_user>>)",
+  "statusTrace" : "file /Users/kouhui/Desktop/automatic/ui-automatic/test_cases/test_device_management/test_add_device.py, line 14\n      @allure.story('这是一个测试正常新增设备的case')\n      def test_normal_add_user(self, state_add_device_management_class):\nfile /Users/kouhui/Desktop/automatic/ui-automatic/test_cases/test_device_management/conftest.py, line 31\n  @pytest.fixture()\n  def state_add_device_management_class(state_drviver):\nE       fixture 'state_drviver' not found\n>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, database_base_configuration, doctest_namespace, monkeypatch, normal_login, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, state_add_device_management_class, state_driver, state_login_class, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory\n>       use 'pytest --fixtures [testpath]' for help on them.\n\n/Users/kouhui/Desktop/automatic/ui-automatic/test_cases/test_device_management/conftest.py:31",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "state_driver",
+    "time" : {
+      "start" : 1577411471761,
+      "stop" : 1577411474599,
+      "duration" : 2838
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "state_login_class",
+    "time" : {
+      "start" : 1577411474604,
+      "stop" : 1577411474604,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "database_base_configuration",
+    "time" : {
+      "start" : 1577411471609,
+      "stop" : 1577411471756,
+      "duration" : 147
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "清空数据库",
+      "time" : {
+        "start" : 1577411471609,
+        "stop" : 1577411471716,
+        "duration" : 107
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "新增基础数据",
+      "time" : {
+        "start" : 1577411471717,
+        "stop" : 1577411471756,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "设备管理"
+  }, {
+    "name" : "story",
+    "value" : "这是一个测试正常新增设备的case"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases.test_device_management"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_device"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddDevice"
+  }, {
+    "name" : "host",
+    "value" : "kouhuideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "22549-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.test_device_management.test_add_device"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "72a20fd496ea659d.json",
+  "parameterValues" : [ ]
+}

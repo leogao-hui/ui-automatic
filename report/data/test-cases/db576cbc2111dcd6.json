@@ -1,0 +1,282 @@
+{
+  "uid" : "db576cbc2111dcd6",
+  "name" : "test_normal_add_device",
+  "fullName" : "test_cases.test_device_management.test_add_device.TestAddDevice#test_normal_add_device",
+  "historyId" : "801e32e4df4807d1493e03cea3cac3aa",
+  "time" : {
+    "start" : 1577428411836,
+    "stop" : 1577428413505,
+    "duration" : 1669
+  },
+  "description" : "\n        用例描述：输入编号，姓名，账号名，选择所属结构，正常新增用户\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：输入编号，姓名，账号名，选择所属结构，正常新增用户\n    :return:\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'tuple' object has no attribute 'id'",
+  "statusTrace" : "self = <test_cases.test_device_management.test_add_device.TestAddDevice object at 0x109c51860>\nstate_add_device_management_class = <OperationalLayer.deviceManagement.deviceManagementAddOperate.DeviceManagementAddOperate object at 0x109ce15c0>\n\n    @allure.story('这是一个测试正常新增设备的case')\n    def test_normal_add_device(self, state_add_device_management_class):\n        '''\n        用例描述：输入编号，姓名，账号名，选择所属结构，正常新增用户\n        :return:\n        '''\n        state_add_device_management_class.click_device_management()\n        state_add_device_management_class.add_device(normal_add_device_data.normal_add_device_data.get('device_name'),\n                                                     normal_add_device_data.normal_add_device_data.get('device_ip'),\n>                                                    normal_add_device_data.normal_add_device_data.get('manufacturer'))\n\ntest_cases/test_device_management/test_add_device.py:22: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nOperationalLayer/deviceManagement/deviceManagementAddOperate.py:24: in add_device\n    self.continuous_operate(DeviceManagementElement.add_device_type_drop_down_box, DeviceManagementElement.encoder)\nBase/base.py:72: in continuous_operate\n    ActionChains(self.driver).click(locator_one).click(locator_two).perform()\n../../../Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/common/action_chains.py:83: in perform\n    action()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\n    self._actions.append(lambda: self._driver.execute(\n>                        Command.MOVE_TO, {'element': to_element.id}))\nE   AttributeError: 'tuple' object has no attribute 'id'\n\n../../../Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/common/action_chains.py:277: AttributeError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "state_login_class",
+    "time" : {
+      "start" : 1577428409474,
+      "stop" : 1577428409475,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "normal_login",
+    "time" : {
+      "start" : 1577428409475,
+      "stop" : 1577428411827,
+      "duration" : 2352
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤1：到达登录页面",
+      "time" : {
+        "start" : 1577428409476,
+        "stop" : 1577428410760,
+        "duration" : 1284
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "步骤2：输入账号，密码，验证码",
+      "time" : {
+        "start" : 1577428410761,
+        "stop" : 1577428411737,
+        "duration" : 976
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "account",
+        "value" : "'admin'"
+      }, {
+        "name" : "password",
+        "value" : "'admin123'"
+      }, {
+        "name" : "verification_code",
+        "value" : "'1111'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "步骤3：点击登录按钮",
+      "time" : {
+        "start" : 1577428411737,
+        "stop" : 1577428411827,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "state_add_device_management_class",
+    "time" : {
+      "start" : 1577428411827,
+      "stop" : 1577428411828,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "state_driver",
+    "time" : {
+      "start" : 1577428405237,
+      "stop" : 1577428409474,
+      "duration" : 4237
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "database_base_configuration",
+    "time" : {
+      "start" : 1577428404991,
+      "stop" : 1577428405237,
+      "duration" : 246
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "清空数据库",
+      "time" : {
+        "start" : 1577428404995,
+        "stop" : 1577428405204,
+        "duration" : 209
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "新增基础数据",
+      "time" : {
+        "start" : 1577428405204,
+        "stop" : 1577428405237,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        用例描述：输入编号，姓名，账号名，选择所属结构，正常新增用户\n        :return:\n        ",
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'tuple' object has no attribute 'id'",
+    "statusTrace" : "self = <test_cases.test_device_management.test_add_device.TestAddDevice object at 0x109c51860>\nstate_add_device_management_class = <OperationalLayer.deviceManagement.deviceManagementAddOperate.DeviceManagementAddOperate object at 0x109ce15c0>\n\n    @allure.story('这是一个测试正常新增设备的case')\n    def test_normal_add_device(self, state_add_device_management_class):\n        '''\n        用例描述：输入编号，姓名，账号名，选择所属结构，正常新增用户\n        :return:\n        '''\n        state_add_device_management_class.click_device_management()\n        state_add_device_management_class.add_device(normal_add_device_data.normal_add_device_data.get('device_name'),\n                                                     normal_add_device_data.normal_add_device_data.get('device_ip'),\n>                                                    normal_add_device_data.normal_add_device_data.get('manufacturer'))\n\ntest_cases/test_device_management/test_add_device.py:22: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nOperationalLayer/deviceManagement/deviceManagementAddOperate.py:24: in add_device\n    self.continuous_operate(DeviceManagementElement.add_device_type_drop_down_box, DeviceManagementElement.encoder)\nBase/base.py:72: in continuous_operate\n    ActionChains(self.driver).click(locator_one).click(locator_two).perform()\n../../../Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/common/action_chains.py:83: in perform\n    action()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\n    self._actions.append(lambda: self._driver.execute(\n>                        Command.MOVE_TO, {'element': to_element.id}))\nE   AttributeError: 'tuple' object has no attribute 'id'\n\n../../../Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/common/action_chains.py:277: AttributeError",
+    "steps" : [ {
+      "name" : "点击设备管理",
+      "time" : {
+        "start" : 1577428411836,
+        "stop" : 1577428412862,
+        "duration" : 1026
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "新增设备",
+      "time" : {
+        "start" : 1577428412862,
+        "stop" : 1577428413499,
+        "duration" : 637
+      },
+      "status" : "broken",
+      "statusMessage" : "AttributeError: 'tuple' object has no attribute 'id'\n",
+      "statusTrace" : "  File \"/Users/kouhui/Documents/python/ui-automation/venv/lib/python3.6/site-packages/allure_commons/_allure.py\", line 157, in impl\n    return func(*a, **kw)\n  File \"/Users/kouhui/Desktop/automatic/ui-automatic/OperationalLayer/deviceManagement/deviceManagementAddOperate.py\", line 24, in add_device\n    self.continuous_operate(DeviceManagementElement.add_device_type_drop_down_box, DeviceManagementElement.encoder)\n  File \"/Users/kouhui/Desktop/automatic/ui-automatic/Base/base.py\", line 72, in continuous_operate\n    ActionChains(self.driver).click(locator_one).click(locator_two).perform()\n  File \"/Users/kouhui/Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/common/action_chains.py\", line 83, in perform\n    action()\n  File \"/Users/kouhui/Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/common/action_chains.py\", line 277, in <lambda>\n    Command.MOVE_TO, {'element': to_element.id}))\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "device_name",
+        "value" : "'测试设备'"
+      }, {
+        "name" : "device_ip",
+        "value" : "'192.168.1.1'"
+      }, {
+        "name" : "manufacturer",
+        "value" : "'测试厂家'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c9154ee814f4d5a0",
+      "name" : "stdout",
+      "source" : "c9154ee814f4d5a0.txt",
+      "type" : "text/plain",
+      "size" : 725
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "这是一个测试正常新增设备的case"
+  }, {
+    "name" : "feature",
+    "value" : "设备管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases.test_device_management"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_device"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddDevice"
+  }, {
+    "name" : "host",
+    "value" : "kouhuideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "51750-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.test_device_management.test_add_device"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db576cbc2111dcd6.json",
+  "parameterValues" : [ ]
+}

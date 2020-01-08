@@ -1,0 +1,123 @@
+{
+  "uid" : "682663ac4f0c604c",
+  "name" : "test_manufacturer_mandatory",
+  "fullName" : "test_cases.test_device_management.test_add_device.test_add_device.TestAddDevice#test_manufacturer_mandatory",
+  "historyId" : "cc9c17ba995c5dfc07db65820bf36635",
+  "time" : {
+    "start" : 1577771882116,
+    "stop" : 1577771882116,
+    "duration" : 0
+  },
+  "description" : "\n        用例描述：设备生产厂家必填\n        :param state_add_device_management_class:\n        :param state_driver:\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：设备生产厂家必填\n    :param state_add_device_management_class:\n    :param state_driver:\n    :return:\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "Failed: ScopeMismatch: You tried to access the 'function' scoped fixture 'state_login_class' with a 'class' scoped request object, involved factories\ntest_cases/test_device_management/test_add_device/conftest.py:18:  def normal_login(state_login_class)\ntest_cases/test_device_management/test_add_device/conftest.py:12:  def state_login_class(state_driver)",
+  "statusTrace" : "ScopeMismatch: You tried to access the 'function' scoped fixture 'state_login_class' with a 'class' scoped request object, involved factories\ntest_cases/test_device_management/test_add_device/conftest.py:18:  def normal_login(state_login_class)\ntest_cases/test_device_management/test_add_device/conftest.py:12:  def state_login_class(state_driver)",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "state_driver",
+    "time" : {
+      "start" : 1577771882243,
+      "stop" : 1577771885587,
+      "duration" : 3344
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "database_base_configuration",
+    "time" : {
+      "start" : 1577771881946,
+      "stop" : 1577771882092,
+      "duration" : 146
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "清空数据库",
+      "time" : {
+        "start" : 1577771881946,
+        "stop" : 1577771882045,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "新增基础数据",
+      "time" : {
+        "start" : 1577771882045,
+        "stop" : 1577771882092,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "这是一个测试设备生产厂家必填的case"
+  }, {
+    "name" : "feature",
+    "value" : "设备管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases.test_device_management.test_add_device"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_device"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddDevice"
+  }, {
+    "name" : "host",
+    "value" : "kouhuideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "25427-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.test_device_management.test_add_device.test_add_device"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "682663ac4f0c604c.json",
+  "parameterValues" : [ ]
+}

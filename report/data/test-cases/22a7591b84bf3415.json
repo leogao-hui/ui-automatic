@@ -1,0 +1,325 @@
+{
+  "uid" : "22a7591b84bf3415",
+  "name" : "test_modify_user",
+  "fullName" : "test_cases.test_user_management.test_modify_user.TestModifyUser#test_modify_user",
+  "historyId" : "effe78ce3d1bc0e6bd194ba76e776d7b",
+  "time" : {
+    "start" : 1577327142337,
+    "stop" : 1577327142337,
+    "duration" : 0
+  },
+  "description" : "\n        用例描述：修改用户姓名，正常修改\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：修改用户姓名，正常修改\n    :return:\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "_pytest.fixtures.FixtureLookupError: ('state_modify_user_management_class', <FixtureRequest for <Function test_modify_user>>)",
+  "statusTrace" : "file /Users/kouhui/Desktop/automatic/ui-automatic/test_cases/test_user_management/test_modify_user.py, line 14\n      @allure.story('这是一个修改人员名字，账号的case')\n      def test_modify_user(self, state_modify_user_management_class):\nE       fixture 'state_modify_user_management_class' not found\n>       available fixtures: add_user, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, database_base_configuration, doctest_namespace, monkeypatch, normal_login, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, state_add_user_management_class, state_driver, state_login_class, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory\n>       use 'pytest --fixtures [testpath]' for help on them.\n\n/Users/kouhui/Desktop/automatic/ui-automatic/test_cases/test_user_management/test_modify_user.py:14",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "state_driver",
+    "time" : {
+      "start" : 1577327142475,
+      "stop" : 1577327145739,
+      "duration" : 3264
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "add_user",
+    "time" : {
+      "start" : 1577327147806,
+      "stop" : 1577327150712,
+      "duration" : 2906
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击用户管理",
+      "time" : {
+        "start" : 1577327147807,
+        "stop" : 1577327149015,
+        "duration" : 1208
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "1.点击添加2.输入编号3.输入姓名4.输入账号",
+      "time" : {
+        "start" : 1577327149015,
+        "stop" : 1577327149482,
+        "duration" : 467
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "serial_number",
+        "value" : "'1'"
+      }, {
+        "name" : "name",
+        "value" : "'tester'"
+      }, {
+        "name" : "account",
+        "value" : "'test111'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "选择所属机构",
+      "time" : {
+        "start" : 1577327149483,
+        "stop" : 1577327149654,
+        "duration" : 171
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击确定",
+      "time" : {
+        "start" : 1577327150655,
+        "stop" : 1577327150712,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "state_add_user_management_class",
+    "time" : {
+      "start" : 1577327147806,
+      "stop" : 1577327147806,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "database_base_configuration",
+    "time" : {
+      "start" : 1577327142339,
+      "stop" : 1577327142474,
+      "duration" : 135
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "清空数据库",
+      "time" : {
+        "start" : 1577327142339,
+        "stop" : 1577327142434,
+        "duration" : 95
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "新增基础数据",
+      "time" : {
+        "start" : 1577327142435,
+        "stop" : 1577327142474,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "state_login_class",
+    "time" : {
+      "start" : 1577327145740,
+      "stop" : 1577327145741,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "normal_login",
+    "time" : {
+      "start" : 1577327145741,
+      "stop" : 1577327147806,
+      "duration" : 2065
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤1：到达登录页面",
+      "time" : {
+        "start" : 1577327145742,
+        "stop" : 1577327146690,
+        "duration" : 948
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "步骤2：输入账号，密码，验证码",
+      "time" : {
+        "start" : 1577327146691,
+        "stop" : 1577327147696,
+        "duration" : 1005
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "account",
+        "value" : "'admin'"
+      }, {
+        "name" : "password",
+        "value" : "'admin123'"
+      }, {
+        "name" : "verification_code",
+        "value" : "'1111'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "步骤3：点击登录按钮",
+      "time" : {
+        "start" : 1577327147696,
+        "stop" : 1577327147805,
+        "duration" : 109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        用例描述：修改用户姓名，正常修改\n        :return:\n        ",
+    "status" : "broken",
+    "statusMessage" : "_pytest.fixtures.FixtureLookupError: ('state_modify_user_management_class', <FixtureRequest for <Function test_modify_user>>)",
+    "statusTrace" : "file /Users/kouhui/Desktop/automatic/ui-automatic/test_cases/test_user_management/test_modify_user.py, line 14\n      @allure.story('这是一个修改人员名字，账号的case')\n      def test_modify_user(self, state_modify_user_management_class):\nE       fixture 'state_modify_user_management_class' not found\n>       available fixtures: add_user, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, database_base_configuration, doctest_namespace, monkeypatch, normal_login, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, state_add_user_management_class, state_driver, state_login_class, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory\n>       use 'pytest --fixtures [testpath]' for help on them.\n\n/Users/kouhui/Desktop/automatic/ui-automatic/test_cases/test_user_management/test_modify_user.py:14",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cc15204c41b5b0f0",
+      "name" : "stdout",
+      "source" : "cc15204c41b5b0f0.txt",
+      "type" : "text/plain",
+      "size" : 1163
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "成员管理,修改人员"
+  }, {
+    "name" : "story",
+    "value" : "这是一个修改人员名字，账号的case"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases.test_user_management"
+  }, {
+    "name" : "suite",
+    "value" : "test_modify_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestModifyUser"
+  }, {
+    "name" : "host",
+    "value" : "kouhuideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "90793-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.test_user_management.test_modify_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "22a7591b84bf3415.json",
+  "parameterValues" : [ ]
+}

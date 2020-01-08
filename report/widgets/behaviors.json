@@ -1,5 +1,5 @@
 {
-  "total" : 6,
+  "total" : 7,
   "items" : [ {
     "uid" : "f634771c880f4ac841b19abc5857189e",
     "name" : "修改设备",
@@ -7,9 +7,9 @@
       "failed" : 0,
       "broken" : 3,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     }
   }, {
     "uid" : "6519274adc791cb053984c148aaad46a",
@@ -45,17 +45,6 @@
       "total" : 1
     }
   }, {
-    "uid" : "c31d69bcab1c803b5d2a8aae0169892c",
-    "name" : "成员管理,新增人员",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
     "uid" : "6e12e06fb17fec92464fd1fd24bca881",
     "name" : "登录",
     "statistic" : {
@@ -65,6 +54,28 @@
       "passed" : 2,
       "unknown" : 0,
       "total" : 2
+    }
+  }, {
+    "uid" : "86338a3b93fc54ddfa272ac2de2a9046",
+    "name" : "新增组织架构的case",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "c31d69bcab1c803b5d2a8aae0169892c",
+    "name" : "成员管理,新增人员",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
     }
   } ]
 }

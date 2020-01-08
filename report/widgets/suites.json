@@ -1,5 +1,5 @@
 {
-  "total" : 6,
+  "total" : 7,
   "items" : [ {
     "uid" : "14e5e263eb53014dfcd370ea0f7df76a",
     "name" : "test_cases.test_device_management",
@@ -16,9 +16,9 @@
     "name" : "test_cases.test_user_management",
     "statistic" : {
       "failed" : 0,
-      "broken" : 3,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
       "total" : 6
     }
@@ -40,9 +40,9 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     }
   }, {
     "uid" : "bfe2441dcea0365f49ea56e90da0f4a2",
@@ -65,6 +65,17 @@
       "passed" : 2,
       "unknown" : 0,
       "total" : 2
+    }
+  }, {
+    "uid" : "3ba573b6e36b56327eb2b798c446dbd2",
+    "name" : "test_cases.test_organization_structure",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
     }
   } ]
 }

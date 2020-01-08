@@ -1,0 +1,450 @@
+{
+  "uid" : "3f4577f8ee1ed16",
+  "name" : "test_normal_add_user",
+  "fullName" : "test_cases.test_device_management.test_add_device.TestAddDevice#test_normal_add_user",
+  "historyId" : "27e69827bdf8a65d0aac598fe45f88b2",
+  "time" : {
+    "start" : 1577414285591,
+    "stop" : 1577414294102,
+    "duration" : 8511
+  },
+  "description" : "\n        用例描述：输入编号，姓名，账号名，选择所属结构，正常新增用户\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：输入编号，姓名，账号名，选择所属结构，正常新增用户\n    :return:\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "self = <test_cases.test_device_management.test_add_device.TestAddDevice object at 0x10a210908>\nstate_add_device_management_class = <OperationalLayer.deviceManagement.deviceManagementAddOperate.DeviceManagementAddOperate object at 0x10a2aa470>\n\n    @allure.story('这是一个测试正常新增设备的case')\n    def test_normal_add_user(self, state_add_device_management_class):\n        '''\n        用例描述：输入编号，姓名，账号名，选择所属结构，正常新增用户\n        :return:\n        '''\n        state_add_device_management_class.click_device_management()\n        state_add_device_management_class.add_device(normal_add_device_data.normal_add_device_data.get('device_name'),\n                                                     normal_add_device_data.normal_add_device_data.get('device_ip'),\n>                                                    normal_add_device_data.normal_add_device_data.get('manufacturer'))\n\ntest_cases/test_device_management/test_add_device.py:22: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nOperationalLayer/deviceManagement/deviceManagementAddOperate.py:26: in add_device\n    self.click(DeviceManagementElement.decoder)\nBase/base.py:50: in click\n    ele = self.find_element(locator)\nBase/base.py:29: in find_element\n    ele = WebDriverWait(self.driver, self.timeout, self.t).until(EC.presence_of_element_located(locator))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"d6bba5f69596cc4e96d5995469646837\")>\nmethod = <selenium.webdriver.support.expected_conditions.presence_of_element_located object at 0x10a2aa828>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n../../../Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/support/wait.py:80: TimeoutException",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "normal_login",
+    "time" : {
+      "start" : 1577414283994,
+      "stop" : 1577414285587,
+      "duration" : 1593
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤1：到达登录页面",
+      "time" : {
+        "start" : 1577414283994,
+        "stop" : 1577414285026,
+        "duration" : 1032
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "步骤2：输入账号，密码，验证码",
+      "time" : {
+        "start" : 1577414285027,
+        "stop" : 1577414285504,
+        "duration" : 477
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "account",
+        "value" : "'admin'"
+      }, {
+        "name" : "password",
+        "value" : "'admin123'"
+      }, {
+        "name" : "verification_code",
+        "value" : "'1111'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "步骤3：点击登录按钮",
+      "time" : {
+        "start" : 1577414285504,
+        "stop" : 1577414285587,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "database_base_configuration",
+    "time" : {
+      "start" : 1577414280776,
+      "stop" : 1577414281038,
+      "duration" : 262
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "清空数据库",
+      "time" : {
+        "start" : 1577414280776,
+        "stop" : 1577414280997,
+        "duration" : 221
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "新增基础数据",
+      "time" : {
+        "start" : 1577414280998,
+        "stop" : 1577414281037,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "state_add_device_management_class",
+    "time" : {
+      "start" : 1577414285587,
+      "stop" : 1577414285587,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "state_driver",
+    "time" : {
+      "start" : 1577414281038,
+      "stop" : 1577414283992,
+      "duration" : 2954
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "state_login_class",
+    "time" : {
+      "start" : 1577414283993,
+      "stop" : 1577414283993,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        用例描述：输入编号，姓名，账号名，选择所属结构，正常新增用户\n        :return:\n        ",
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "self = <test_cases.test_device_management.test_add_device.TestAddDevice object at 0x10a210908>\nstate_add_device_management_class = <OperationalLayer.deviceManagement.deviceManagementAddOperate.DeviceManagementAddOperate object at 0x10a2aa470>\n\n    @allure.story('这是一个测试正常新增设备的case')\n    def test_normal_add_user(self, state_add_device_management_class):\n        '''\n        用例描述：输入编号，姓名，账号名，选择所属结构，正常新增用户\n        :return:\n        '''\n        state_add_device_management_class.click_device_management()\n        state_add_device_management_class.add_device(normal_add_device_data.normal_add_device_data.get('device_name'),\n                                                     normal_add_device_data.normal_add_device_data.get('device_ip'),\n>                                                    normal_add_device_data.normal_add_device_data.get('manufacturer'))\n\ntest_cases/test_device_management/test_add_device.py:22: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nOperationalLayer/deviceManagement/deviceManagementAddOperate.py:26: in add_device\n    self.click(DeviceManagementElement.decoder)\nBase/base.py:50: in click\n    ele = self.find_element(locator)\nBase/base.py:29: in find_element\n    ele = WebDriverWait(self.driver, self.timeout, self.t).until(EC.presence_of_element_located(locator))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"d6bba5f69596cc4e96d5995469646837\")>\nmethod = <selenium.webdriver.support.expected_conditions.presence_of_element_located object at 0x10a2aa828>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n../../../Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/support/wait.py:80: TimeoutException",
+    "steps" : [ {
+      "name" : "点击设备管理",
+      "time" : {
+        "start" : 1577414285591,
+        "stop" : 1577414286505,
+        "duration" : 914
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "新增设备",
+      "time" : {
+        "start" : 1577414286505,
+        "stop" : 1577414294095,
+        "duration" : 7590
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+      "statusTrace" : "  File \"/Users/kouhui/Documents/python/ui-automation/venv/lib/python3.6/site-packages/allure_commons/_allure.py\", line 157, in impl\n    return func(*a, **kw)\n  File \"/Users/kouhui/Desktop/automatic/ui-automatic/OperationalLayer/deviceManagement/deviceManagementAddOperate.py\", line 26, in add_device\n    self.click(DeviceManagementElement.decoder)\n  File \"/Users/kouhui/Desktop/automatic/ui-automatic/Base/base.py\", line 50, in click\n    ele = self.find_element(locator)\n  File \"/Users/kouhui/Desktop/automatic/ui-automatic/Base/base.py\", line 29, in find_element\n    ele = WebDriverWait(self.driver, self.timeout, self.t).until(EC.presence_of_element_located(locator))\n  File \"/Users/kouhui/Documents/python/ui-automation/venv/lib/python3.6/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "device_name",
+        "value" : "'测试设备'"
+      }, {
+        "name" : "device_ip",
+        "value" : "'192.168.1.1'"
+      }, {
+        "name" : "manufacturer",
+        "value" : "'测试厂家'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "aec51ad5485426a",
+      "name" : "stdout",
+      "source" : "aec51ad5485426a.txt",
+      "type" : "text/plain",
+      "size" : 987
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "设备管理"
+  }, {
+    "name" : "story",
+    "value" : "这是一个测试正常新增设备的case"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases.test_device_management"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_device"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddDevice"
+  }, {
+    "name" : "host",
+    "value" : "kouhuideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "27666-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.test_device_management.test_add_device"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c507c640fc6a361e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1577414214532,
+        "stop" : 1577414223046,
+        "duration" : 8514
+      }
+    }, {
+      "uid" : "1dc0eb0564ff975",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1577413790485,
+        "stop" : 1577413799151,
+        "duration" : 8666
+      }
+    }, {
+      "uid" : "f587163eb1666626",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1577413758945,
+        "stop" : 1577413765788,
+        "duration" : 6843
+      }
+    }, {
+      "uid" : "5b931e443accff22",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1577413551430,
+        "stop" : 1577413558230,
+        "duration" : 6800
+      }
+    }, {
+      "uid" : "9ab7e6dd0c1613f4",
+      "status" : "broken",
+      "statusDetails" : "TypeError: add_device() missing 3 required positional arguments: 'device_name', 'device_ip', and 'manufacturer'",
+      "time" : {
+        "start" : 1577413362091,
+        "stop" : 1577413364006,
+        "duration" : 1915
+      }
+    }, {
+      "uid" : "ed122624cb068c1f",
+      "status" : "broken",
+      "statusDetails" : "TypeError: add_device() missing 3 required positional arguments: 'device_name', 'device_ip', and 'manufacturer'",
+      "time" : {
+        "start" : 1577413330672,
+        "stop" : 1577413331577,
+        "duration" : 905
+      }
+    }, {
+      "uid" : "50a84bd576a6f376",
+      "status" : "broken",
+      "statusDetails" : "TypeError: add_device() missing 3 required positional arguments: 'device_name', 'device_ip', and 'manufacturer'",
+      "time" : {
+        "start" : 1577413112580,
+        "stop" : 1577413114016,
+        "duration" : 1436
+      }
+    }, {
+      "uid" : "73f379daf570356b",
+      "status" : "broken",
+      "statusDetails" : "TypeError: add_device() missing 3 required positional arguments: 'device_name', 'device_ip', and 'manufacturer'",
+      "time" : {
+        "start" : 1577412367558,
+        "stop" : 1577412368983,
+        "duration" : 1425
+      }
+    }, {
+      "uid" : "bd322aa1799c0a00",
+      "status" : "broken",
+      "statusDetails" : "TypeError: add_device() missing 3 required positional arguments: 'device_name', 'device_ip', and 'manufacturer'",
+      "time" : {
+        "start" : 1577412187620,
+        "stop" : 1577412188902,
+        "duration" : 1282
+      }
+    }, {
+      "uid" : "c33d41432f661d36",
+      "status" : "broken",
+      "statusDetails" : "TypeError: add_device() missing 3 required positional arguments: 'device_name', 'device_ip', and 'manufacturer'",
+      "time" : {
+        "start" : 1577412076598,
+        "stop" : 1577412077832,
+        "duration" : 1234
+      }
+    }, {
+      "uid" : "1a2bac72e8a9c80e",
+      "status" : "broken",
+      "statusDetails" : "TypeError: add_device() missing 3 required positional arguments: 'device_name', 'device_ip', and 'manufacturer'",
+      "time" : {
+        "start" : 1577411658013,
+        "stop" : 1577411659237,
+        "duration" : 1224
+      }
+    }, {
+      "uid" : "d4f18ea28ddf75ea",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1577411585008,
+        "stop" : 1577411605407,
+        "duration" : 20399
+      }
+    }, {
+      "uid" : "6f7edd8a71159f6c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1577411541098,
+        "stop" : 1577411561440,
+        "duration" : 20342
+      }
+    }, {
+      "uid" : "72a20fd496ea659d",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('state_drviver', <SubRequest 'state_add_device_management_class' for <Function test_normal_add_user>>)",
+      "time" : {
+        "start" : 1577411471607,
+        "stop" : 1577411471607,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "546734d78e550274",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('state_drviver', <SubRequest 'state_add_device_management_class' for <Function test_normal_add_user>>)",
+      "time" : {
+        "start" : 1577410685993,
+        "stop" : 1577410685993,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "826b24aebc83d06b",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('state_drviver', <SubRequest 'state_add_device_management_class' for <Function test_normal_add_user>>)",
+      "time" : {
+        "start" : 1577409700552,
+        "stop" : 1577409700552,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a6bda8d8ff54a8d1",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('state_drviver', <SubRequest 'state_add_device_management_class' for <Function test_normal_add_user>>)",
+      "time" : {
+        "start" : 1577409476337,
+        "stop" : 1577409476337,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b26cf8ea3048c975",
+      "status" : "broken",
+      "statusDetails" : "pymysql.err.OperationalError: (2003, \"Can't connect to MySQL server on '10.66.8.200' (timed out)\")",
+      "time" : {
+        "start" : 1577355074551,
+        "stop" : 1577355074551,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3f4577f8ee1ed16.json",
+  "parameterValues" : [ ]
+}

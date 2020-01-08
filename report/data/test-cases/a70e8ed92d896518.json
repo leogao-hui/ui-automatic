@@ -1,0 +1,381 @@
+{
+  "uid" : "a70e8ed92d896518",
+  "name" : "test_device_ip_mandatory",
+  "fullName" : "test_cases.test_device_management.test_add_device.test_add_device.TestAddDevice#test_device_ip_mandatory",
+  "historyId" : "d95c57c02bc6949741fc5ea3af168d1e",
+  "time" : {
+    "start" : 1578029033641,
+    "stop" : 1578029034719,
+    "duration" : 1078
+  },
+  "description" : "\n        用例描述：设备ip必填\n        :param state_add_device_management_class:\n        :param state_driver:\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：设备ip必填\n    :param state_add_device_management_class:\n    :param state_driver:\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "state_login_class",
+    "time" : {
+      "start" : 1578029032841,
+      "stop" : 1578029032841,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "state_add_device_management_class",
+    "time" : {
+      "start" : 1578029033640,
+      "stop" : 1578029033640,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "normal_login",
+    "time" : {
+      "start" : 1578029032841,
+      "stop" : 1578029033640,
+      "duration" : 799
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤1：到达登录页面",
+      "time" : {
+        "start" : 1578029032841,
+        "stop" : 1578029033282,
+        "duration" : 441
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "步骤2：输入账号，密码，验证码",
+      "time" : {
+        "start" : 1578029033282,
+        "stop" : 1578029033592,
+        "duration" : 310
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "account",
+        "value" : "'admin'"
+      }, {
+        "name" : "password",
+        "value" : "'admin123'"
+      }, {
+        "name" : "verification_code",
+        "value" : "'1111'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "步骤3：点击登录按钮",
+      "time" : {
+        "start" : 1578029033592,
+        "stop" : 1578029033640,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "database_base_configuration",
+    "time" : {
+      "start" : 1578029007859,
+      "stop" : 1578029008002,
+      "duration" : 143
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "清空数据库",
+      "time" : {
+        "start" : 1578029007859,
+        "stop" : 1578029007953,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "新增基础数据",
+      "time" : {
+        "start" : 1578029007953,
+        "stop" : 1578029008002,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "state_driver",
+    "time" : {
+      "start" : 1578029027725,
+      "stop" : 1578029032841,
+      "duration" : 5116
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        用例描述：设备ip必填\n        :param state_add_device_management_class:\n        :param state_driver:\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1.点击设备管理 2.点击新增按钮",
+      "time" : {
+        "start" : 1578029033641,
+        "stop" : 1578029034342,
+        "duration" : 701
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "3.输入设备名称 4.输入设备ip",
+      "time" : {
+        "start" : 1578029034342,
+        "stop" : 1578029034475,
+        "duration" : 133
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "device_name",
+        "value" : "'测试设备'"
+      }, {
+        "name" : "device_ip",
+        "value" : "''"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "选择设备类型",
+      "time" : {
+        "start" : 1578029034475,
+        "stop" : 1578029034499,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "选择所属机构，输入生产厂家, 点击确定",
+      "time" : {
+        "start" : 1578029034499,
+        "stop" : 1578029034678,
+        "duration" : 179
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "manufacturer",
+        "value" : "'测试厂家'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "关闭页面",
+      "time" : {
+        "start" : 1578029034678,
+        "stop" : 1578029034719,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "7fb64870c3278ad",
+      "name" : "stdout",
+      "source" : "7fb64870c3278ad.txt",
+      "type" : "text/plain",
+      "size" : 1298
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "设备管理"
+  }, {
+    "name" : "story",
+    "value" : "这是一个测试设备ip必填项的case"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases.test_device_management.test_add_device"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_device"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddDevice"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-IJ0L9OR"
+  }, {
+    "name" : "thread",
+    "value" : "10096-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.test_device_management.test_add_device.test_add_device"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c687b7352291ba48",
+      "status" : "broken",
+      "statusDetails" : "pymysql.err.OperationalError: (2003, \"Can't connect to MySQL server on '10.66.8.200' ([WinError 10065] 套接字操作尝试一个无法连接的主机。)\")",
+      "time" : {
+        "start" : 1578028788204,
+        "stop" : 1578028788204,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bd206636852b60ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577771924515,
+        "stop" : 1577771926441,
+        "duration" : 1926
+      }
+    }, {
+      "uid" : "54854c1b5e2bbff9",
+      "status" : "failed",
+      "statusDetails" : "Failed: ScopeMismatch: You tried to access the 'function' scoped fixture 'state_login_class' with a 'class' scoped request object, involved factories\ntest_cases/test_device_management/test_add_device/conftest.py:18:  def normal_login(state_login_class)\ntest_cases/test_device_management/test_add_device/conftest.py:12:  def state_login_class(state_driver)",
+      "time" : {
+        "start" : 1577771882110,
+        "stop" : 1577771882110,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "557dc1f0b43564d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577769926730,
+        "stop" : 1577769928289,
+        "duration" : 1559
+      }
+    }, {
+      "uid" : "eeb95e0359e4ac9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577765831995,
+        "stop" : 1577765834276,
+        "duration" : 2281
+      }
+    }, {
+      "uid" : "7541e7a7b194fc22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577765482862,
+        "stop" : 1577765484383,
+        "duration" : 1521
+      }
+    }, {
+      "uid" : "d0e031317a4e685b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577764455455,
+        "stop" : 1577764457031,
+        "duration" : 1576
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a70e8ed92d896518.json",
+  "parameterValues" : [ ]
+}
