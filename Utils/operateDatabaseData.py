@@ -93,3 +93,5 @@ def get_data_from_database(sql_sentence):
     db.close()
     return result
 
+delete_database_data_test_ci()
+add_database_data_test_ci()

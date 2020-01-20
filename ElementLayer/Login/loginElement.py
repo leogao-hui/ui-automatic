@@ -10,7 +10,7 @@ class LoginElement:
     account_input_box = (By.CLASS_NAME, 'username')
 
     # 密码输入框
-    password_input_box = (By.CLASS_NAME, 'password')
+    password_input_box = (By.XPATH, '//input[@class="password"]')
 
     # 验证码输入框
     verification_code_input_box = (By.XPATH, '//*[@class="idcode"]/input')
