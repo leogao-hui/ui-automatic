@@ -67,6 +67,11 @@ class Base:
     def close(self):
         self.driver.close()
 
+    # 获取页面handle
+    def get_handle(self):
+        handle = self.driver.current_window_handle
+        return handle
+
     # action
     def continuous_operate(self, locator_one, locator_two):
         ActionChains(self.driver).click(locator_one).click(locator_two).perform()
@@ -100,5 +105,8 @@ class Base:
             return result
         except:
             return False
+
+    def switch_window(self, window):
+        return self.driver.switch_to_window(window)
 
 

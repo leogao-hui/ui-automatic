@@ -33,6 +33,14 @@ class LoginOperate(Base):
     def validate_jump_page(self):
         return self.receive_current_url()
 
+    @allure.step('步骤5：获取页面handle')
+    def receive_handle(self):
+        return self.receive_handle()
+
+    @allure.step('步骤6：跳转页面')
+    def switch_handle(self, data):
+        return self.switch_handle(data)
+
     @allure.step('步骤4：获取账号不存在报错信息')
     def validate_account_not_exist(self):
         return self.get_txt_in_tag(LoginElement.assert_account_wrong)

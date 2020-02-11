@@ -32,5 +32,10 @@ class TestAddUser:
         # 关闭页面
         state_add_user_management_class.close_web()
 
+    @allure.story('这是一个测试编号输入框为空的case')
+    @allure.story('这是一个测试姓名输入框为空的case')
+    @allure.story('这是一个测试账户名输入框为空的case')
+    @allure.story('这是一个测试所属机构为空的case')
+    @allure.story('这是一个测试')
 
 
