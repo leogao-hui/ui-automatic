@@ -9,7 +9,7 @@ from OperationalLayer.Login.login import LoginOperate
 from Url.userManagement import userManagement
 from Url.Login import login
 from Data.Login import noraml_login_data
-from Data.userManagement.modify_user import modify_user_name_data
+from Data.userManagement.add_user import normal_add_user_data
 
 
 @pytest.fixture()
@@ -40,9 +40,9 @@ def state_add_user_management_class(state_driver):
 @pytest.fixture()
 def add_user(state_add_user_management_class):
     state_add_user_management_class.click_user_management()
-    state_add_user_management_class.add_user(modify_user_name_data.modify_user_name_data['serial_num'],
-                                             modify_user_name_data.modify_user_name_data['name'],
-                                             modify_user_name_data.modify_user_name_data['account'])
+    state_add_user_management_class.add_user(normal_add_user_data.modify_user_name_data['serial_num'],
+                                             normal_add_user_data.modify_user_name_data['name'],
+                                             normal_add_user_data.modify_user_name_data['account'])
     state_add_user_management_class.choose_organization()
     time.sleep(1)
     state_add_user_management_class.confirm()
