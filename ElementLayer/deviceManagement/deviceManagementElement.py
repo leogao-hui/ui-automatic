@@ -53,6 +53,12 @@ class DeviceManagementElement:
     # 删除设备按钮
     delete_device_button = (By.XPATH, '//*[text()="删除"]')
 
+    # 删除设备确定按钮
+    delete_device_confirm_button = ()
+
+    # 删除设备取消按钮
+    delete_device_cancel_button = ()
+
     # 查看设备
     view_device_button = (By.XPATH, '//*[text()="查看"]')
 

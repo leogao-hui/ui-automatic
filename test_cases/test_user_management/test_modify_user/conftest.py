@@ -10,6 +10,7 @@ from Url.userManagement import userManagement
 from Url.Login import login
 from Data.Login import noraml_login_data
 from Data.userManagement.add_user import normal_add_user_data
+from Utils.operateDatabaseData import delete_database_data_test_ci, add_database_data_test_ci
 
 
 @pytest.fixture()
@@ -52,3 +53,11 @@ def add_user(state_add_user_management_class):
 def state_modify_user_management_class(state_driver):
     modify_user_management_operate = UserManagementModifyOperate(state_driver, userManagement.user_manager_url)
     return modify_user_management_operate
+
+
+@pytest.fixture(scope='function', autouse=True)
+def database_base_configuration():
+    delete_database_data_test_ci()
+    add_database_data_test_ci()
+
+

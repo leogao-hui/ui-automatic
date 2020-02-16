@@ -4,9 +4,11 @@
 import pytest
 from OperationalLayer.Login.login import LoginOperate
 from OperationalLayer.deviceManagement.deviceManagementAddOperate import DeviceManagementAddOperate
+from OperationalLayer.deviceManagement.deviceManagementAddOperate import DeviceManagementDeleteOperate
 from Url.deviceManagement import deviceManagement
 from Url.Login import login
 from Data.Login import noraml_login_data
+from Data.deviceManagement.add_device import normal_add_device_data
 
 
 @pytest.fixture()
@@ -44,3 +46,8 @@ def add_device_fixture(state_add_device_management_class):
     state_add_device_management_class.choose_organization_manufacturer(normal_add_device_data.
                                                                        normal_add_device_data.get('manufacturer'))
 
+
+@pytest.fixture()
+def state_delete_device_management_class(state_driver):
+    delete_device_management_operate = DeviceManagementDeleteOperate(state_driver, deviceManagement.device_manager_url)
+    return delete_device_management_operate

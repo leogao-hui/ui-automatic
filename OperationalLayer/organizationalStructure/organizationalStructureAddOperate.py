@@ -6,7 +6,7 @@ from Base.base import Base
 from ElementLayer.organizationalStructure.organizationalStructureElement import OrganizationalStructureElement
 
 
-class OrganizationalStructureOperate(Base):
+class OrganizationalStructureAddOperate(Base):
 
     def __init__(self, driver, url):
         super().__init__(driver, url)

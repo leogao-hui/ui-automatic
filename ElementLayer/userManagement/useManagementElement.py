@@ -33,6 +33,12 @@ class UserManagementElement:
     # 添加人员取消按钮
     add_user_cancel_button = (By.XPATH, '//*[@id="app"]/div[3]/div[2]/div[2]/div/div/div/div[3]/button[2]')
 
+    # 删除人员确定按钮
+    delete_user_confirm_button = (By.XPATH, '')
+
+    # 删除人员取消按钮
+    delete_user_cancel_button = (By.XPATH, '')
+
     # 修改用户按钮
     modify_user_button = (By.XPATH, '//*[text()="修改"]')
 
