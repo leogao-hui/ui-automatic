@@ -76,7 +76,7 @@ class UserManagementElement:
     reset_button = (By.XPATH, '//*[@class="searchbtnBox"]/button[1]')
 
     # 第一排空格
-    first_blank_space = (By.XPATH, '//*[@class="listData"]/li/span/label/span')
+    first_blank_space = (By.XPATH, '//*[@class="listData"]/li/span/label/span/span')
 
     # 第一排序号
     first_row_serial_number = (By.XPATH, '//*[@class="listData"]/li/span[2]')

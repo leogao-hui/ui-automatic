@@ -4,7 +4,7 @@
 
 import pytest
 from OperationalLayer.Login.login import LoginOperate
-from OperationalLayer.organizationalStructure.organizationalStructureOperate import OrganizationalStructureOperate
+from OperationalLayer.organizationalStructure.organizationalStructureAddOperate import OrganizationalStructureAddOperate
 from Url.Login import login
 from Data.Login import noraml_login_data
 
@@ -30,5 +30,5 @@ def normal_login(state_login_class):
 
 @pytest.fixture()
 def state_organization_structure_class(state_driver):
-    organization_structure_operate = OrganizationalStructureOperate(state_driver, login.login_url)
+    organization_structure_operate = OrganizationalStructureAddOperate(state_driver, login.login_url)
     return organization_structure_operate

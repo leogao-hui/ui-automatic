@@ -4,9 +4,11 @@
 
 import pytest
 from OperationalLayer.Login.login import LoginOperate
-from OperationalLayer.organizationalStructure.organizationalStructureOperate import OrganizationalStructureOperate
+from OperationalLayer.organizationalStructure.organizationalStructureAddOperate import OrganizationalStructureAddOperate
 from Url.Login import login
 from Data.Login import noraml_login_data
+from Data.organizationStructure.add_organization_structure import add_organization_structure_data, \
+    name_repeat_organization_structure
 
 
 @pytest.fixture()
@@ -30,5 +32,15 @@ def normal_login(state_login_class):
 
 @pytest.fixture()
 def state_organization_structure_class(state_driver):
-    organization_structure_operate = OrganizationalStructureOperate(state_driver, login.login_url)
+    organization_structure_operate = OrganizationalStructureAddOperate(state_driver, login.login_url)
     return organization_structure_operate
+
+
+@pytest.fixture()
+def add_organization_structure(state_organization_structure_class):
+    state_organization_structure_class.click_organization_structure()
+    state_organization_structure_class.click_total_military_area_command()
+    state_organization_structure_class.add_organization(
+        add_organization_structure_data.add_organization_structure_data.get('organization_structure_serial_number'),
+        add_organization_structure_data.add_organization_structure_data.get('organization_structure_name'))
+

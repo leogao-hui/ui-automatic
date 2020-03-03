@@ -32,4 +32,14 @@ class OrganizationalStructureElement:
     # 验证组织架构名称
     assert_organization_name = (By.XPATH, '//*[@class="organization-tree"]/div/li/ul/div/li/div/span/span[1]')
 
+    # 第一个组织架构
+    first_organization_structure = (By.XPATH, '//*[@class="organization-tree"]/div/li/ul/div/li/div/span/span[1]')
 
+    # 第一个组织架构修改按钮
+    first_organization_structure_modify_button = (By.XPATH, '//*[@class="organization-tree"]/div/li/ul/div/li/div/span/span[2]/span[2]')
+
+    # 第一个组织架构删除按钮
+    first_organization_structure_delete_button = (By.XPATH, '//*[@class="organization-tree"]/div/li/ul/div/li/div/span/span[2]/span[3]')
+
+    # 确认按钮
+    delete_confirm_button = (By.XPATH, '//*[@class="frame"]/div[3]/button[1]')

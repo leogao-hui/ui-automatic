@@ -4,13 +4,10 @@
 import pytest
 import time
 from OperationalLayer.userManagement.userManagementAddOperate import UserManagementAddOperate
-from OperationalLayer.userManagement.userManagementModifyOperate import UserManagementModifyOperate
-from OperationalLayer.userManagement.userManagementDeleteOperate import UserManagementDeleteOperate
 from OperationalLayer.Login.login import LoginOperate
 from Url.userManagement import userManagement
 from Url.Login import login
 from Data.Login import noraml_login_data
-from Data.userManagement.add_user import normal_add_user_data
 
 
 @pytest.fixture()

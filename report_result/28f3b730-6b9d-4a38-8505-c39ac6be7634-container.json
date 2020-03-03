@@ -1,0 +1,1 @@
+{"uuid": "d8259326-540d-4d5a-9138-6b8279fba873", "children": ["fc01aea3-5361-4884-8517-92f29c8f1ec3"], "befores": [{"name": "state_add_device_management_class", "status": "passed", "start": 1583225178630, "stop": 1583225178630}], "start": 1583225178630, "stop": 1583225181877}

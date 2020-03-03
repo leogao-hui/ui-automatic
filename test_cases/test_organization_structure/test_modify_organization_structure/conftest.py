@@ -4,9 +4,11 @@
 
 import pytest
 from OperationalLayer.Login.login import LoginOperate
-from OperationalLayer.organizationalStructure.organizationalStructureOperate import OrganizationalStructureOperate
+from OperationalLayer.organizationalStructure.organizationalStructureAddOperate import OrganizationalStructureAddOperate
+from OperationalLayer.organizationalStructure.organizationalStructureModifyOperate import OrganizationalStructureModifyOperate
 from Url.Login import login
 from Data.Login import noraml_login_data
+from Data.organizationStructure.modify_organization_structure import modify_organization_structure_data
 from Utils.operateDatabaseData import delete_database_data_test_ci, add_database_data_test_ci
 
 
@@ -31,13 +33,22 @@ def normal_login(state_login_class):
 
 @pytest.fixture()
 def state_add_organization_structure_class(state_driver):
-    organization_structure_add_operate = OrganizationalStructureOperate(state_driver, login.login_url)
+    organization_structure_add_operate = OrganizationalStructureAddOperate(state_driver, login.login_url)
     return organization_structure_add_operate
 
 
 @pytest.fixture()
+def add_organization_structure(state_add_organization_structure_class):
+    state_add_organization_structure_class.click_organization_structure()
+    state_add_organization_structure_class.click_total_military_area_command()
+    state_add_organization_structure_class.add_organization(
+        modify_organization_structure_data.add_organization_structure_data.get('organization_structure_serial_number'),
+        modify_organization_structure_data.add_organization_structure_data.get('organization_structure_name'))
+
+
+@pytest.fixture()
 def state_modify_organization_structure_class(state_driver):
-    organization_structure_modify_operate = OrganizationalStructureOperate(state_driver, login.login_url)
+    organization_structure_modify_operate = OrganizationalStructureModifyOperate(state_driver, login.login_url)
     return organization_structure_modify_operate
 
 

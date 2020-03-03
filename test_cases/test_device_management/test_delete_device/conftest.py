@@ -33,12 +33,6 @@ def normal_login(state_login_class):
 
 
 @pytest.fixture()
-def state_add_user_management_class(state_driver):
-    add_user_management_operate = UserManagementAddOperate(state_driver, userManagement.user_manager_url)
-    return add_user_management_operate
-
-
-@pytest.fixture()
 def state_add_device_management_class(state_driver):
     add_device_management_operate = DeviceManagementAddOperate(state_driver, deviceManagement.device_manager_url)
     return add_device_management_operate
@@ -53,6 +47,12 @@ def add_device_fixture(state_add_device_management_class):
     state_add_device_management_class.choose_device_type()
     state_add_device_management_class.choose_organization_manufacturer(normal_add_device_data.
                                                                        normal_add_device_data.get('manufacturer'))
+
+
+@pytest.fixture()
+def state_add_user_management_class(state_driver):
+    add_user_management_operate = UserManagementAddOperate(state_driver, userManagement.user_manager_url)
+    return add_user_management_operate
 
 
 @pytest.fixture()
