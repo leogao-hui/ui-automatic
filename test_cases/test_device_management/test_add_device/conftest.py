@@ -44,3 +44,8 @@ def add_device_fixture(state_add_device_management_class):
     state_add_device_management_class.choose_organization_manufacturer(normal_add_device_data.
                                                                        normal_add_device_data.get('manufacturer'))
 
+
+@pytest.fixture(scope='function', autouse=True)
+def database_base_configuration():
+    delete_database_data_test_ci()
+    add_database_data_test_ci()

@@ -33,6 +33,16 @@ class DeviceManagementAddOperate(Base):
         self.send_keys(DeviceManagementElement.manufacturer_input, manufacturer)
         self.click(DeviceManagementElement.add_device_confirm_button)
 
+    @allure.step('选择所属机构，输入生产厂家')
+    def choose_organization_manufacturer_extra(self, manufacturer):
+        self.use_js_click(DeviceManagementElement.belong_to_organization_drop_down_box)
+        self.use_js_click(DeviceManagementElement.total_military_area_command)
+        self.send_keys(DeviceManagementElement.manufacturer_input, manufacturer)
+
+    @allure.step('点击确定')
+    def confirm(self):
+        self.click(DeviceManagementElement.add_device_confirm_button)
+
     @allure.step('关闭页面')
     def close_web(self):
         self.close()
@@ -61,5 +71,8 @@ class DeviceManagementAddOperate(Base):
     def assert_error_information(self):
         self.get_txt_in_tag(DeviceManagementElement.add_error_information)
 
+    @allure.step('获取弹窗报错信息')
+    def validate_bounced_error_information(self):
+        return self.get_txt_in_tag(DeviceManagementElement.assert_bounced)
 
 

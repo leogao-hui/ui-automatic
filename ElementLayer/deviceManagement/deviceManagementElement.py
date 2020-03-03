@@ -101,5 +101,5 @@ class DeviceManagementElement:
     # 添加报错信息
     add_error_information = (By.XPATH, '//*[@class="modal"]/transition/div/transition/div/div[2]')
 
-
-
+    # 验证弹框
+    assert_bounced = (By.XPATH, '//*[@class="modal"]/div/div/div[2]')
