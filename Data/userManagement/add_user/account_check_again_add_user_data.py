@@ -1,14 +1,18 @@
 #_author:leo gao
 #encoding:utf-8
 
+import random
+
+name = chr(random.randint(65, 90)) + chr(random.randint(0x4e00, 0x9fbf))
+
 account_check_again_add_user_data_one = {
     'serial_num': '1_name_check_again',
-    'name': 'name_check_again_name_one',
-    'account': 'name_check_again_account_one'
+    'name': name,
+    'account': 'account'
 }
 
 account_check_again_add_user_data_two = {
     'serial_num': '2_name_check_again',
-    'name': 'name_check_again_name_two',
-    'account': 'name_check_again_account_one'
+    'name': '%s哈' % name,
+    'account': 'account'
 }

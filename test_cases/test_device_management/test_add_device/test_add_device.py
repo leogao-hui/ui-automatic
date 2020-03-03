@@ -193,7 +193,7 @@ class TestAddDevice:
         state_add_user_management_class.close_web()
 
     @allure.story('这是一条测试设备名称不支持特殊字符的case')
-    def test_name_support_chinese_english(self, state_add_user_management_class):
+    def test_name_support_special_characters(self, state_add_user_management_class):
         '''
         用例描述：设备名称不支持特殊字符，报错
         :return:
@@ -235,7 +235,7 @@ class TestAddDevice:
         state_add_user_management_class.close_web()
 
     @allure.story('这是一条生产工厂名称不支持特殊字符的case')
-    def test_name_support_chinese_english(self, state_add_user_management_class):
+    def test_name_support_special_characters(self, state_add_user_management_class):
         '''
         用例描述：不支持特殊字符，报错
         :return:
@@ -431,7 +431,13 @@ class TestAddDevice:
         '''
         pass
 
-
+    @allure.story('这是一条人员绑定设备的case')
+    def test_user_bind_device(self, state_add_user_management_class):
+        '''
+        用例描述：人员绑定设备，正常绑定
+        :return:
+        '''
+        pass
 
 
 

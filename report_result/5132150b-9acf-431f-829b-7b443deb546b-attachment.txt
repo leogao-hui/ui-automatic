@@ -1,0 +1,20 @@
+正在定位元素信息：定位方式->class name, value值->username
+正在定位元素信息：定位方式->xpath, value值->//input[@class="password"]
+正在定位元素信息：定位方式->xpath, value值->//*[@class="idcode"]/input
+正在定位元素信息：定位方式->class name, value值->login-confirm
+正在定位元素信息：定位方式->class name, value值->username
+正在定位元素信息：定位方式->xpath, value值->//input[@class="password"]
+正在定位元素信息：定位方式->xpath, value值->//*[@class="idcode"]/input
+正在定位元素信息：定位方式->class name, value值->login-confirm
+正在定位元素信息：定位方式->class name, value值->username
+正在定位元素信息：定位方式->xpath, value值->//input[@class="password"]
+正在定位元素信息：定位方式->xpath, value值->//*[@class="idcode"]/input
+正在定位元素信息：定位方式->class name, value值->login-confirm
+正在定位元素信息：定位方式->class name, value值->username
+正在定位元素信息：定位方式->xpath, value值->//input[@class="password"]
+正在定位元素信息：定位方式->xpath, value值->//*[@class="idcode"]/input
+正在定位元素信息：定位方式->class name, value值->login-confirm
+正在定位元素信息：定位方式->class name, value值->username
+正在定位元素信息：定位方式->xpath, value值->//input[@class="password"]
+正在定位元素信息：定位方式->xpath, value值->//*[@class="idcode"]/input
+正在定位元素信息：定位方式->class name, value值->login-confirm

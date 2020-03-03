@@ -67,6 +67,10 @@ class Base:
     def close(self):
         self.driver.close()
 
+    # 关闭页面
+    def quit(self):
+        self.driver.quit()
+
     # 获取页面handle
     def get_handle(self):
         handle = self.driver.current_window_handle

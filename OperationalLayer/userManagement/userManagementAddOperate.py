@@ -74,6 +74,10 @@ class UserManagementAddOperate(Base):
     def assert_error_information(self):
         self.get_txt_in_tag()
 
+    @allure.step('获取弹窗报错信息')
+    def validate_bounced_error_information(self):
+        return self.get_txt_in_tag(UserManagementElement.assert_bounced)
+
 
 
 

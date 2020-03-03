@@ -22,3 +22,5 @@ class TestDeleteOrganizationStructure:
 
         # 关闭页面
         state_organization_structure_class.close_web()
+
+    # 3种

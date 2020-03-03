@@ -22,3 +22,8 @@ class TestDeleteDevice:
 
         # 关闭页面
         state_delete_device_management_class.close_web()
+
+    # 被用户绑定不能删除
+
+    # 视频开会 视频监控
+

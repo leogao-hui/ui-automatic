@@ -113,3 +113,6 @@ class UserManagementElement:
 
     # 修改用户时的取消按钮
     modify_user_cancel_button = (By.XPATH, '//*[@id="app"]/div[3]/div[2]/div[2]/div/div/div/div[3]/button[2]')
+
+    # 验证弹框
+    assert_bounced = (By.XPATH, '//*[@class="modal"]/div/div/div[2]')

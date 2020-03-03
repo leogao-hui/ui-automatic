@@ -41,9 +41,9 @@ def state_add_user_management_class(state_driver):
 @pytest.fixture()
 def add_user(state_add_user_management_class):
     state_add_user_management_class.click_user_management()
-    state_add_user_management_class.add_user(normal_add_user_data.modify_user_name_data['serial_num'],
-                                             normal_add_user_data.modify_user_name_data['name'],
-                                             normal_add_user_data.modify_user_name_data['account'])
+    state_add_user_management_class.add_user(normal_add_user_data.normal_add_user_data['serial_num'],
+                                             normal_add_user_data.normal_add_user_data['name'],
+                                             normal_add_user_data.normal_add_user_data['account'])
     state_add_user_management_class.choose_organization()
     time.sleep(1)
     state_add_user_management_class.confirm()
