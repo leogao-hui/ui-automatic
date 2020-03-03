@@ -4,7 +4,9 @@
 import pytest
 from OperationalLayer.Login.login import LoginOperate
 from OperationalLayer.deviceManagement.deviceManagementAddOperate import DeviceManagementAddOperate
-from OperationalLayer.deviceManagement.deviceManagementAddOperate import DeviceManagementDeleteOperate
+from OperationalLayer.deviceManagement.deviceManagementDeleteOperate import DeviceManagementDeleteOperate
+from OperationalLayer.userManagement.userManagementAddOperate import UserManagementAddOperate
+from Url.userManagement import userManagement
 from Url.deviceManagement import deviceManagement
 from Url.Login import login
 from Data.Login import noraml_login_data
@@ -28,6 +30,12 @@ def normal_login(state_login_class):
     state_login_class.input_account(noraml_login_data.account, noraml_login_data.password,
                                     noraml_login_data.verification_code)
     state_login_class.confirm_login_button()
+
+
+@pytest.fixture()
+def state_add_user_management_class(state_driver):
+    add_user_management_operate = UserManagementAddOperate(state_driver, userManagement.user_manager_url)
+    return add_user_management_operate
 
 
 @pytest.fixture()
