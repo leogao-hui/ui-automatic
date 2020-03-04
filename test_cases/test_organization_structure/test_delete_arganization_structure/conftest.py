@@ -3,8 +3,8 @@
 
 
 import pytest
-from OperationalLayer.Login.login import LoginOperate
-from OperationalLayer.organizationalStructure.organizationalStructureAddOperate import OrganizationalStructureAddOperate
+from operationalLayer.Login.login import LoginOperate
+from operationalLayer.organizationalStructure.organizationalStructureAddOperate import OrganizationalStructureAddOperate
 from Url.Login import login
 from Data.Login import noraml_login_data
 from Data.organizationStructure.add_organization_structure import add_organization_structure_data, \

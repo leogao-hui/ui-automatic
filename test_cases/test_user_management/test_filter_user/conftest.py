@@ -3,8 +3,8 @@
 
 import pytest
 import time
-from OperationalLayer.userManagement.userManagementAddOperate import UserManagementAddOperate
-from OperationalLayer.Login.login import LoginOperate
+from operationalLayer.userManagement.userManagementAddOperate import UserManagementAddOperate
+from operationalLayer.Login.login import LoginOperate
 from Url.userManagement import userManagement
 from Url.Login import login
 from Data.Login import noraml_login_data

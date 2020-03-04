@@ -2,8 +2,8 @@
 #encoding:utf-8
 
 import pytest
-from OperationalLayer.Login.login import LoginOperate
-from OperationalLayer.userManagement.userManagementAddOperate import UserManagementAddOperate
+from operationalLayer.Login.login import LoginOperate
+from operationalLayer.userManagement.userManagementAddOperate import UserManagementAddOperate
 from Url.Login import login
 from Url.userManagement import userManagement
 

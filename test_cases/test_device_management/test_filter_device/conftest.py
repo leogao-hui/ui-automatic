@@ -2,8 +2,8 @@
 #encoding:utf-8
 
 import pytest
-from OperationalLayer.Login.login import LoginOperate
-from OperationalLayer.deviceManagement.deviceManagementAddOperate import DeviceManagementAddOperate
+from operationalLayer.Login.login import LoginOperate
+from operationalLayer.deviceManagement.deviceManagementAddOperate import DeviceManagementAddOperate
 from Url.deviceManagement import deviceManagement
 from Url.Login import login
 from Data.Login import noraml_login_data

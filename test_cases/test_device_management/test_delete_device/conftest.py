@@ -2,10 +2,10 @@
 #encoding:utf-8
 
 import pytest
-from OperationalLayer.Login.login import LoginOperate
-from OperationalLayer.deviceManagement.deviceManagementAddOperate import DeviceManagementAddOperate
-from OperationalLayer.deviceManagement.deviceManagementDeleteOperate import DeviceManagementDeleteOperate
-from OperationalLayer.userManagement.userManagementAddOperate import UserManagementAddOperate
+from operationalLayer.Login.login import LoginOperate
+from operationalLayer.deviceManagement.deviceManagementAddOperate import DeviceManagementAddOperate
+from operationalLayer.deviceManagement.deviceManagementDeleteOperate import DeviceManagementDeleteOperate
+from operationalLayer.userManagement.userManagementAddOperate import UserManagementAddOperate
 from Url.userManagement import userManagement
 from Url.deviceManagement import deviceManagement
 from Url.Login import login
