@@ -12,7 +12,6 @@ from Data.Login import noraml_login_data, wrong_account_login_data, empty_accoun
 
 
 @allure.feature('登录')
-@pytest.mark.usefixtures('state_login_class')
 class TestLogin:
 
     @allure.story('这是一个测试正常登录的case')

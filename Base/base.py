@@ -2,10 +2,10 @@
 #encoding:utf-8
 
 
-from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 
 
@@ -62,6 +62,12 @@ class Base:
     def clear(self, locator):
         ele = self.find_element(locator)
         ele.clear()
+
+    # 清空数据
+    def mandatory_clear(self, locator):
+        ele = self.find_element(locator)
+        ele.send_keys(Keys.CONTROL + 'a')
+        ele.send_keys(Keys.BACKSPACE)
 
     # 关闭页面
     def close(self):

@@ -21,4 +21,19 @@ import random
 # name = chr(random.randint(65, 90))
 # print(name)
 
+from selenium import webdriver
+import time
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.options import Options
+chrome_options = Options()
+browser_url = r'C:\Users\keda\AppData\Local\Chromium\Application\chrome.exe'
+chrome_options.binary_location = browser_url
+web = webdriver.Chrome(options=chrome_options)
+
+web.get('http://10.66.8.200:8088/#/login')
+time.sleep(2)
+web.find_element_by_xpath('//input[@class="username"]').send_keys('1111')
+wb= web.find_element_by_xpath('//input[@class="username"]')
+wb.send_keys(Keys.CONTROL + 'a')
+wb.send_keys(Keys.BACKSPACE)
 

@@ -68,6 +68,10 @@ class LoginOperate(Base):
         self.send_keys(LoginElement.confirm_password_input_box, confirm_pwd)
         self.click(LoginElement.confirm_password_button)
 
+    @allure.step('清空账户数据')
+    def clear_data(self):
+        self.mandatory_clear(LoginElement.account_input_box)
+
 
 
 
