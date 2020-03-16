@@ -24,7 +24,7 @@ class UserManagementAddOperate(Base):
 
     @allure.step('选择所属机构')
     def choose_organization(self):
-        self.click(UserManagementElement.belong_to_organization_select_box)
+        self.use_js_click(UserManagementElement.belong_to_organization_select_box)
         self.use_js_click(UserManagementElement.total_military_area_command)
 
     @allure.step('点击确定')
