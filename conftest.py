@@ -11,7 +11,8 @@ driver_ = None
 @pytest.fixture(scope='function')
 def state_driver():
     chrome_options = Options()
-    browser_url = r'C:\Users\keda\AppData\Local\Chromium\Application\chrome.exe'
+    # browser_url = r'C:\Users\keda\AppData\Local\Chromium\Application\chrome.exe'
+    browser_url = r'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe'
     chrome_options.binary_location = browser_url
     chrome_options.add_argument('--headless')  # 无界面
     chrome_options.add_argument('--no-sandbox')  # 解决DevToolsActivePort文件不存在报错问题
