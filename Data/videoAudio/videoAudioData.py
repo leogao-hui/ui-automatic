@@ -53,25 +53,27 @@ class VideoAudioData:
             'device_ip': '192.168.1.1',
             'manufacturer': '测试厂家'
         },
-        'device_two': {
-            'device_name': 'devicetwo',
-            'device_ip': '192.168.1.2',
-            'manufacturer': '测试厂家'
-        },
-        'device_three': {
-            'device_name': 'devicethree',
-            'device_ip': '192.168.1.3',
-            'manufacturer': '测试厂家'
-        },
-        'device_four': {
-            'device_name': 'devicefour',
-            'device_ip': '192.168.1.4',
-            'manufacturer': '测试厂家'
-        },
-        'device_five': {
-            'device_name': 'devicefive',
-            'device_ip': '192.168.1.5',
-            'manufacturer': '测试厂家'
-        },
+        # 'device_two': {
+        #     'device_name': 'devicetwo',
+        #     'device_ip': '192.168.1.2',
+        #     'manufacturer': '测试厂家'
+        # },
+        # 'device_three': {
+        #     'device_name': 'devicethree',
+        #     'device_ip': '192.168.1.3',
+        #     'manufacturer': '测试厂家'
+        # },
+        # 'device_four': {
+        #     'device_name': 'devicefour',
+        #     'device_ip': '192.168.1.4',
+        #     'manufacturer': '测试厂家'
+        # },
+        # 'device_five': {
+        #     'device_name': 'devicefive',
+        #     'device_ip': '192.168.1.5',
+        #     'manufacturer': '测试厂家'
+        # },
     }
+
+    video_command_name = '测试视频指挥'
 

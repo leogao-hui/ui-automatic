@@ -51,6 +51,24 @@ class UserManagementElement:
     # 绑定设备
     bind_device_button = (By.XPATH, '//*[text()="绑定设备"]')
 
+    # 未绑定设备位置一
+    not_bind_device_one = (By.XPATH, '//div[@class="notBind"]/ul/div/div/div/li/span')
+
+    # 未绑定设备位置二
+    not_bind_device_two = (By.XPATH, '//div[@class="notBind"]/ul/div/div/div/li[2]/span')
+
+    # 未绑定设备位置三
+    not_bind_device_three = (By.XPATH, '//div[@class="notBind"]/ul/div/div/div/li[3]/span')
+
+    # 未绑定设备位置四
+    not_bind_device_four = (By.XPATH, '//div[@class="notBind"]/ul/div/div/div/li[4]/span')
+
+    # 未绑定设备位置五
+    not_bind_device_five = (By.XPATH, '//div[@class="notBind"]/ul/div/div/div/li[5]/span')
+
+    # 绑定设备
+    bind_device = (By.XPATH, '//div[@class="binded"]/ul/div/div/div')
+
     # 导出按钮
     export_button = (By.XPATH, '//*[text()="导出"]')
 
@@ -116,3 +134,4 @@ class UserManagementElement:
 
     # 验证弹框
     assert_bounced = (By.XPATH, '//*[@class="modal"]/div/div/div[2]')
+

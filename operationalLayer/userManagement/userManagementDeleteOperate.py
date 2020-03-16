@@ -13,9 +13,9 @@ class UserManagementDeleteOperate(Base):
 
     @allure.step('点击删除')
     def click_user_delete(self):
-        self.click(UserManagementElement.first_blank_space)
-        self.click(UserManagementElement.delete_user_button)
-        self.click(UserManagementElement.delete_user_confirm_button)
+        self.use_js_click(UserManagementElement.first_blank_space)
+        self.use_js_click(UserManagementElement.delete_user_button)
+        self.use_js_click(UserManagementElement.delete_user_confirm_button)
 
     @allure.step('验证序号')
     def assert_delete_user_serial_number(self):

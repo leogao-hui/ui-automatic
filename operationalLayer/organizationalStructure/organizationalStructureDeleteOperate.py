@@ -14,6 +14,6 @@ class OrganizationalStructureDeleteOperate(Base):
 
     @allure.step('删除组织架构')
     def delete_organization_structure(self):
-        self.click(OrganizationalStructureElement.first_organization_structure)
-        self.click(OrganizationalStructureElement.first_organization_structure_delete_button)
-        self.click(OrganizationalStructureElement.delete_confirm_button)
+        self.use_js_click(OrganizationalStructureElement.first_organization_structure)
+        self.use_js_click(OrganizationalStructureElement.first_organization_structure_delete_button)
+        self.use_js_click(OrganizationalStructureElement.delete_confirm_button)

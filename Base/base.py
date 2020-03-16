@@ -6,7 +6,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver import ActionChains
 
 
 class Base:
@@ -101,6 +101,7 @@ class Base:
         r = ele.is_selected()
         return r
 
+    # 元素是否存在
     def is_element_exist(self, locator):
         try:
             self.find_element(locator)
@@ -108,6 +109,7 @@ class Base:
         except:
             return False
 
+    # 验证页面title
     def is_title(self, _title=''):
         '''返回bool值'''
         try:
@@ -118,5 +120,14 @@ class Base:
 
     def switch_window(self, window):
         return self.driver.switch_to_window(window)
+
+    # 元素拖拽
+    def drag_and_drop(self, initial_position, target_position):
+        action_chains = ActionChains(self.driver)
+        action_chains.click_and_hold(self.find_element(initial_position)).move_to_element(self.find_element(target_position)).release().perform()
+        # action_chains.drag_and_drop(self.find_element(initial_position), self.find_element(target_position)).perform()
+
+
+
 
 

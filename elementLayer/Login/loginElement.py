@@ -41,3 +41,15 @@ class LoginElement:
 
     # 取消密码按钮
     cancel_password_button = (By.XPATH, '//*[@class="modifypwd adduser"]/div[2]/div[3]/button[2]')
+
+    # 登录账号位置
+    login_account_button = (By.XPATH, '//*[@id="app"/div[3]/div/div[3]/span')
+
+    # 注销按钮
+    cancellation_button = (By.XPATH, '//*[@class="manage"]/div/div[3]/div/ul/li[4]')
+
+    # 注销确认按钮
+    cancellation_confirm_button = (By.XPATH, '//*[@id="app"]/div[3]/div/div/div/div[3]/button')
+
+    # 注销取消按钮
+    cancellation_cancel_button = (By.XPATH, '//*[@id="app"]/div[3]/div/div/div/div[3]/button[2]')

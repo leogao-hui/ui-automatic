@@ -27,7 +27,7 @@ class LoginOperate(Base):
     @allure.step('点击登录按钮')
     # 点击确认登录按钮
     def confirm_login_button(self):
-        self.click(LoginElement.login_confirm_input_box)
+        self.use_js_click(LoginElement.login_confirm_input_box)
 
     @allure.step('验证跳转页面')
     def validate_jump_page(self):
@@ -51,7 +51,7 @@ class LoginOperate(Base):
 
     @allure.step('点击记住密码')
     def click_remember_password(self):
-        return self.click(LoginElement.remember_password_input_box)
+        return self.use_js_click(LoginElement.remember_password_input_box)
 
     @allure.step('关闭页面')
     def close_web(self):
@@ -66,14 +66,14 @@ class LoginOperate(Base):
         self.send_keys(LoginElement.original_password_input_box, old_pwd)
         self.send_keys(LoginElement.new_password_input_box, new_pwd)
         self.send_keys(LoginElement.confirm_password_input_box, confirm_pwd)
-        self.click(LoginElement.confirm_password_button)
+        self.use_js_click(LoginElement.confirm_password_button)
 
     @allure.step('清空账户数据')
     def clear_data(self):
         self.mandatory_clear(LoginElement.account_input_box)
 
-
-
-
-
-
+    @allure.step('注销账户')
+    def cancellation_account(self):
+        self.click(LoginElement.login_account_button)
+        self.click(LoginElement.cancellation_button)
+        self.click(LoginElement.cancellation_confirm_button)

@@ -13,8 +13,8 @@ class UserManagementModifyOperate(Base):
 
     @allure.step('点击修改')
     def click_user_modify(self):
-        self.click(UserManagementElement.first_blank_space)
-        self.click(UserManagementElement.modify_user_button)
+        self.use_js_click(UserManagementElement.first_blank_space)
+        self.use_js_click(UserManagementElement.modify_user_button)
 
     @allure.step('1.修改姓名2.修改账户名')
     def modify_user(self, name, account):
