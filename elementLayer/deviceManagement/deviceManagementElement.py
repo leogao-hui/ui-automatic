@@ -54,10 +54,10 @@ class DeviceManagementElement:
     delete_device_button = (By.XPATH, '//*[text()="删除"]')
 
     # 删除设备确定按钮
-    delete_device_confirm_button = ()
+    delete_device_confirm_button = (By.XPATH, '//*[@id="app"]/div[3]/div[2]/div[2]/div/div/div/div[3]/button')
 
     # 删除设备取消按钮
-    delete_device_cancel_button = ()
+    delete_device_cancel_button = (By.XPATH, '//*[@id="app"]/div[3]/div[2]/div[2]/div/div/div/div[3]/button[2]')
 
     # 查看设备
     view_device_button = (By.XPATH, '//*[text()="查看"]')
@@ -72,7 +72,7 @@ class DeviceManagementElement:
     download_template_button = (By.XPATH, '//*[text()="模版下载"]')
 
     # 第一排空格
-    first_blank_space = (By.XPATH, '//*[@class="listData"]/li/span/label/span')
+    first_blank_space = (By.XPATH, '//*[@class="listData"]/li/span/label/span/span')
 
     # 第一排序号
     first_row_serial_number = (By.XPATH, '//*[@class="listData"]/li/span[2]')

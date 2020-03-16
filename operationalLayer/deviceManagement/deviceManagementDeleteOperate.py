@@ -14,9 +14,9 @@ class DeviceManagementDeleteOperate(Base):
 
     @allure.step('1.点击删除按钮')
     def delete_device(self):
-        self.click(DeviceManagementElement.first_blank_space)
-        self.click(DeviceManagementElement.delete_device_button)
-        self.click(DeviceManagementElement.delete_device_confirm_button)
+        self.use_js_click(DeviceManagementElement.first_blank_space)
+        self.use_js_click(DeviceManagementElement.delete_device_button)
+        self.use_js_click(DeviceManagementElement.delete_device_confirm_button)
 
     @allure.step('关闭页面')
     def close_web(self):

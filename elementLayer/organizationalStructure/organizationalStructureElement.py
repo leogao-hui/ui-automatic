@@ -26,6 +26,9 @@ class OrganizationalStructureElement:
     add_organization_structure_name_input = (By.XPATH,
                                              '//*[@class="organization-tree"]/div/div/div/div[2]/ul/li[2]/input')
 
+    # 修改组织架构名称
+    modify_organization_structure_name_input = (By.XPATH, '//*[@class="organization-tree"]/div/li/ul/div/div/div/div[2]/ul/li[2]/input')
+
     # 确认按钮
     confirm_button = (By.XPATH, '//*[@class="organization-tree"]/div/div/div/div[3]/button[1]')
 
@@ -43,3 +46,6 @@ class OrganizationalStructureElement:
 
     # 确认按钮
     delete_confirm_button = (By.XPATH, '//*[@class="frame"]/div[3]/button[1]')
+
+    # 修改名字确认按钮
+    modify_name_confirm_button = (By.XPATH, '//*[@class="organization-tree"]/div/li/ul/div/div/div/div[3]/button')
